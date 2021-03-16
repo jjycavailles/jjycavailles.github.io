@@ -1,7 +1,7 @@
 title: Jerome Cavailles
-baseurl: "/successful-aluminum-9df86"
-url: "https://jjycavailles.github.io/successful-aluminum-9df86/"
-permalink: '/successful-aluminum-9df86/:title/'
+baseurl: "./"
+url: "https://jjycavailles.github.io/"
+permalink: '/:title/'
 collections:
   posts:
     permalink: './posts/:title/'
