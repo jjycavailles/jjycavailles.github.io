@@ -1,11 +1,3 @@
----
-layout: page
-title: Blog
-lang: en
-ref: blog
-subtitle: Different articles
----
-
 <div>
 {% assign postsCategory = site.posts | group_by_exp:"post", "post.categories"  %}
 {% for category in postsCategory %}

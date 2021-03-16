@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Blog
-lang: en
+lang: fr
 ref: blog
-subtitle: Different articles
+subtitle: Differents articles
 ---
 
 <div>

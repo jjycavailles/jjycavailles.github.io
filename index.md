@@ -6,13 +6,13 @@ sections:
   - type: hero_section
     title: 'Jerome Cavailles'
     subtitle: >-
-      PhD student in theoretical biology at the university of Graz.
+      PhD student in theoretical biology at the university of Graz. url4
     actions:
       - label: Resume
-        url: /resume
+        url: ./resume
         style: secondary
       - label: Research
-        url: /research
+        url: ./research
         style: primary
     image: images/moi.jpg
     image_alt: me

@@ -1,0 +1,15 @@
+---
+layout: page
+title:  "Symbiosis"
+date:   2016-05-20 21:21:21 +0530
+categories: ["general"]
+---
+
+On parle de symbiose lorsque deux organismes d’espèces différentes vivent ensemble.
+
+Pour aller plus loin :
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S3z6oStU578" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cmgMffsrA7c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

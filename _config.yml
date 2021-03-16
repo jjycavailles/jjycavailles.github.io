@@ -1,9 +1,10 @@
 title: Jerome Cavailles
-baseurl: /
-permalink: '/:title/'
+baseurl: "/successful-aluminum-9df86"
+url: "https://jjycavailles.github.io/successful-aluminum-9df86/"
+permalink: '/successful-aluminum-9df86/:title/'
 collections:
   posts:
-    permalink: '/posts/:title/'
+    permalink: './posts/:title/'
 layout_type: boxed
 style: classic
 palette: 007000
@@ -14,16 +15,16 @@ header:
   has_primary_nav: true
   primary_nav_links:
     - label: Home
-      url: /.
+      url: ./
       style: link
     - label: Resume
-      url: /resume
+      url: ./resume
       style: link
     - label: Research
-      url: /research
+      url: ./research
       style: link
     - label: Blog
-      url: /blog
+      url: ./blog
       style: primary
   has_secondary_nav: false
   has_anncmnt: false
@@ -31,13 +32,13 @@ footer:
   has_primary_nav: true
   primary_nav_links:
     - label: Resume
-      url: /resume
+      url: ./resume
       style: link
     - label: Research
-      url: /research
+      url: ./research
       style: link
     - label: Blog
-      url: /blog
+      url: ./blog
       style: link
   has_secondary_nav: true
   secondary_nav_links:
