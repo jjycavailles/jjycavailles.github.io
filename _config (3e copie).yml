@@ -1,6 +1,6 @@
 title: Jerome Cavailles
 url: "https://jjycavailles.github.io/"
-lang: en
+languages: ["en", "fr"] 
 permalink: '/:title/'
 collections:
   posts:
@@ -14,33 +14,18 @@ header:
   title: Jerome Cavailles
   has_primary_nav: true
   primary_nav_links:
-    t:
-      en:
-          - label: Home
-            url: ./
-            style: link
-          - label: Resume
-            url: ./resume
-            style: link
-          - label: Research
-            url: ./research
-            style: link
-          - label: Blog
-            url: ./blog
-            style: primary
-      fr:
-          - label: Accueil
-            url: ./accueil
-            style: link
-          - label: Formation
-            url: ./formation
-            style: link
-          - label: Recherche
-            url: ./recherche
-            style: link
-          - label: Blog
-            url: ./blog_fr
-            style: primary
+    - label: Home
+      url: ./
+      style: link
+    - label: Resume
+      url: ./resume
+      style: link
+    - label: Research
+      url: ./research
+      style: link
+    - label: Blog
+      url: ./blog
+      style: primary
   has_secondary_nav: false
   has_anncmnt: false
 footer:

@@ -1,18 +1,18 @@
 ---
-lang: en
+lang: fr
 ref: index
 title: Jerome Cavailles
 sections:
   - type: hero_section
     title: 'Jerome Cavailles'
     subtitle: >-
-      PhD student in theoretical biology at the university of Graz.
+      Doctorant en biologie theorique a l'universite de Graz
     actions:
       - label: Resume
-        url: ./resume
+        url: /formation
         style: secondary
       - label: Research
-        url: ./research
+        url: /recherche
         style: primary
     image: images/moi.jpg
     image_alt: me
@@ -45,7 +45,7 @@ sections:
         image_alt: plant interaction
         media_position: right
         media_width: fifty
-      - title: ... by using game theory
+      - title: ... en utilisant la theorie des jeux
         subtitle: 
         content: >-
           Game theory is the study of the interactions between different agents. As far as I’m concerned, the agents are plants, animals or other living organisms. However game theory can also be used to model interactions between humans, institutions, computers, etc.
