@@ -3,7 +3,9 @@ layout: page
 title:  "Modèle mathématique"
 subtitle: "Qu'es-ce qu'un modele mathematique ?"
 date:   2016-05-20 21:21:21 +0530
-categories: ["general"]
+categories: ["Français"]
+ref: model
+lang: fr
 ---
 
 On peut définir la modélisation mathématique comme la simplification en termes mathématiques d’un phénomène.

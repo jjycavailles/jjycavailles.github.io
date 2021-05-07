@@ -2,7 +2,7 @@
 <html lang="en">
     <head>    
 
-        <title>Welcome to Pudhina | Jerome Cavailles</title>
+        <title>Feux de forêt | Jerome Cavailles</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="google" content="notranslate" />
@@ -59,6 +59,93 @@
 							
 								
 								
+									
+
+<ul class="menu flex-md items-md-center">
+
+	
+	
+	
+	<li class="menu__item ml-md-3">
+		
+		
+
+
+<a href="/accueil"
+	
+	
+	class="">
+	
+	
+		Accueil
+	
+</a>
+
+	</li>
+
+	
+	
+	
+	<li class="menu__item ml-md-3">
+		
+		
+
+
+<a href="/formation"
+	
+	
+	class="">
+	
+	
+		Formation
+	
+</a>
+
+	</li>
+
+	
+	
+	
+	<li class="menu__item ml-md-3">
+		
+		
+
+
+<a href="/recherche"
+	
+	
+	class="">
+	
+	
+		Recherche
+	
+</a>
+
+	</li>
+
+	
+	
+	
+	<li class="menu__item ml-md-3 menu__item-btn">
+		
+		
+
+
+<a href="/blog_fr"
+	
+	
+	class="btn btn--primary">
+	
+	
+		Blog
+	
+</a>
+
+	</li>
+
+</ul>
+
+								
 							
 							
 						</div>
@@ -84,71 +171,11 @@
 			
 			
 			  <li>
-			    <a href="/posts/welcome-to-jekyll/" class=""></a>
-			  </li>
-			
-			  <li>
-			    <a href="/posts/theorie_des_jeux/" class=""></a>
-			  </li>
-			
-			  <li>
-			    <a href="/posts/symbioses/" class=""></a>
-			  </li>
-			
-			  <li>
-			    <a href="/posts/modele_mathematique/" class=""></a>
-			  </li>
-			
-			  <li>
-			    <a href="/posts/this-post-demonstrates-post-content-styles/" class=""></a>
-			  </li>
-			
-			  <li>
-			    <a href="/posts/super-long-article/" class=""></a>
-			  </li>
-			
-			  <li>
-			    <a href="/posts/my-example-post/" class=""></a>
+			    <a href="/posts/feux/" class="fr">fr</a>
 			  </li>
 			
 
 			
-			
-			  <li>
-			    <a href="/css/main.css" class=""></a>
-			  </li>
-			
-			  <li>
-			    <a href="/blog/" class="en">en</a>
-			  </li>
-			
-			  <li>
-			    <a href="/" class="en">en</a>
-			  </li>
-			
-			  <li>
-			    <a href="/research/" class="en">en</a>
-			  </li>
-			
-			  <li>
-			    <a href="/resume/" class="en">en</a>
-			  </li>
-			
-			  <li>
-			    <a href="/accueil/" class="fr">fr</a>
-			  </li>
-			
-			  <li>
-			    <a href="/blog_fr/" class="fr">fr</a>
-			  </li>
-			
-			  <li>
-			    <a href="/formation/" class="fr">fr</a>
-			  </li>
-			
-			  <li>
-			    <a href="/recherche/" class="fr">fr</a>
-			  </li>
 			
 			</ul>
 
@@ -163,23 +190,28 @@
 		<article class="page py-5 py-sm-6">
 	<div class="container container--medium">
 		<header class="page__header">
-			<h1 class="page__title">Welcome to Pudhina</h1>
+			<h1 class="page__title">Feux de forêt</h1>
 		</header>
 		<div class="page__body text-block">
-			<p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+			<p>Dans cet article on va etudier un modèle simple qui représente la propagation d’un feux de forêt.</p>
 
-<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p>On représente un morceau foret avec des points verts pour les arbres et des points noirs la ou il n’y a rien.</p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<p><img src="/images/feux_init.png" width="300" /></p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+<p>Ensuite, un feux est déclanché sur la partie gauche de la foret. Le feux est représenté par des points rouges.
+Le feux peut seulement brûler les arbres (points vert). Ainsi les points noirs empêchent le feux de se propager.</p>
 
-<p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+<p><img src="/images/feux_milieu.png" width="300" /></p>
 
+<p>En fonction de la densité d’arbre (la proportion de points verts) le feux arrive ou non a se propager jusqu’a la droite de la foret.</p>
+
+<p><a href="http://netlogoweb.org/launch#http://netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Fire.nlogo" target="_blank">Lien pour la simulation d’un feux de forêt</a></p>
+
+<p>Cliquer sur “setup” puis sur “go”.</p>
+
+<p>On peut remarquer qu’il existe une densité critique au delà du quel la foret va presque toujours brûler jusqu’à la droite.
+En effet, pour une densité au dessus de 65% la foret jusqu’a la droite. En revanche pour une densité en dessous de 55%, le feux est rapidement arrêté par manque d’arbre cote a cote.</p>
 
 		</div>
 	</div>

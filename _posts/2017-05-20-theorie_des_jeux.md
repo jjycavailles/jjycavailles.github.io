@@ -2,8 +2,11 @@
 layout: page
 title:  "Theorie des jeux"
 date:   2016-05-20 21:21:21 +0530
-categories: ["general"]
+categories: ["Français"]
+ref: game_theory
+lang: fr
 ---
+
 
 La théorie des jeux est l’étude de l’interactions entre différents agents. En ce qui me concerne, les agents sont des plantes, des animaux ou autres organismes vivants. Toutefois la théorie des jeux peut aussi être utilise pour modélisé des interactions entres des humains, institutions, ordinateurs, etc …
 

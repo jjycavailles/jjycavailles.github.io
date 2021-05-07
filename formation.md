@@ -21,33 +21,35 @@ layout: page
 
 #### Doctorant (PhD) - Graz university - 2019/2023
 
-I am interested in the mathematical modeling of symbiotic relationships (mycorrhizae) and the resulting evolutionary processes by using game theoretic techniques. 
-My aim is to model the role of fluctuating environmental conditions on the stability of symbioses.
+Je suis intéressé par la modélisation mathématique des relations symbiotiques (en particulier des mycorhizes) et des processus évolutifs qui en résultent en utilisant des techniques de la théorie des jeux. Mon objectif est de modéliser le rôle des conditions environnementales sur la stabilité des symbioses.
 
-#### Research assistant - CNRS - 2019
+#### Stage - CNRS - 2019
 
-Understanding how and when human intervention to stabilize an ecosystem’s dynamics may actually lead to a more fragile ecosystem. 
-In particular, exploring whether minimizing commonly used stability measures, such as temporal variability, can lead to higher chance of extreme events, such as an ecosystem collapse.
+Comprendre comment et quand une intervention humaine pour stabiliser la dynamique d’un écosystème peut conduire à un écosystème plus fragile. En particulier, explorer si minimiser communément les mesures de stabilité utilisées (telles que la variabilité temporelle) peuvent augmenter les risques d’événements extrêmes, comme un effondrement de l'écosystème.
 
-#### Internship engineer - WeatherForce - 2018
+#### Stage - WeatherForce - 2018
 
-Study of the classification in time regimes and their impacts for business uses.
-Development of tools dedicated to the classification of a day.
-Evaluation of their impact on user variables.
+Étude de la classification en régimes de temps et de leurs impacts pour des utilisations métiers.
+Développement des outils dédiés à la classification d’une journée.
+Évaluation de leur impacts sur des variables utilisateurs.
 
 
 
-# Training
+# Formation
 
-#### Mathematical engineer
+#### Ingénieur en mathématiques (INSA Toulouse)
 
 
+<figure>
+	<img src="../images/a.PNG" alt="a" width="300"/>
+	<img src="../images/b.PNG" alt="b" width="300"/>
+	<figcaption>Etude des écoulement d'air autour d'une aile d'avion.</figcaption>
+</figure>
 
-<img src="../images/a.PNG" alt="a" width="300"/>
-<img src="../images/b.PNG" alt="b" width="300"/>
-
-<img src="../images/barbara_bruite.png" alt="c" width="300" height="300"/>
-<img src="../images/barbara_cleaned.png" alt="d" width="300" height="300"/>
-
+<figure>
+	<img src="../images/barbara_bruite.png" alt="c" width="300" height="300"/>
+	<img src="../images/barbara_cleaned.png" alt="d" width="300" height="300"/>
+	<figcaption>(À gauche) image bruitée (à droite) debruitage de cette image grâce à un algorithme.</figcaption>
+</figure>
 
 

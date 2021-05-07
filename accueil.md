@@ -1,17 +1,17 @@
 ---
 lang: fr
 ref: index
-title: Jerome Cavailles
+title: Jerome Cavailles 
 sections:
   - type: hero_section
     title: 'Jerome Cavailles'
-    subtitle: >-
-      Doctorant en biologie theorique a l'universite de Graz
+    subtitle: >- 
+      Doctorant en biologie théorique a l'université de Graz
     actions:
-      - label: Resume
+      - label: Formation
         url: /formation
         style: secondary
-      - label: Research
+      - label: Recherche
         url: /recherche
         style: primary
     image: images/moi.jpg
@@ -27,16 +27,16 @@ sections:
     background_image_size: contain
     background_image_opacity: 8
   - type: features_section
-    title: Research
-    subtitle: What I am doing as a PhD student
+    title: Recherche
+    subtitle: Ce que je fais en thèse
     features:
-      - title: I study plant interaction ...
+      - title: J'étudie l'interaction des plantes ...
         subtitle:
         content: >-
-          Plant interact with each others, and also with micro-organisms such as bacteria and fungi.
+          Les plantes interagissent les unes avec les autres, ainsi qu'avec les micro-organismes tels que les bactéries et les champignons.
         actions:
-          - label: Learn more
-            url: /plant_interaction
+          - label: Plus
+            url: /posts/symbioses
             style: primary
             has_icon: true
             icon: arrow-right
@@ -48,10 +48,10 @@ sections:
       - title: ... en utilisant la theorie des jeux
         subtitle: 
         content: >-
-          Game theory is the study of the interactions between different agents. As far as I’m concerned, the agents are plants, animals or other living organisms. However game theory can also be used to model interactions between humans, institutions, computers, etc.
+          La théorie des jeux est l'étude des interactions entre différents agents. En ce qui me concerne, les agents sont des plantes, des animaux ou d’autres organismes vivants. Cependant, la théorie des jeux peut également être utilisée pour modéliser les interactions entre les humains, les institutions, les ordinateurs, etc.
         actions:
-          - label: Learn More
-            url: /game_theory
+          - label: Plus
+            url: /posts/theorie_des_jeux
             style: primary
             has_icon: true
             icon: arrow-right
@@ -69,7 +69,7 @@ sections:
     show_recent: true
     recent_count: 6
 seo:
-  title: Jerome Cavailles
+  title: Jerome Cavailles (site en cours de construction)
   description: The preview of the Personal theme
   extra:
     - name: 'og:type'

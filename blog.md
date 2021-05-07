@@ -12,7 +12,7 @@ subtitle: Different articles
 <h4 class="post-teaser__month">
 <strong>
 {% if category.name %} 
-- - - - -  {{ category.name }} - - - - - 
+{{ category.name }}
 {% else %} 
 {{ Print }} 
 {% endif %}

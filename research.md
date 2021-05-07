@@ -10,7 +10,7 @@ sections:
       - title: I study plant interaction ...
         subtitle:
         content: >-
-          Plant interact with each others, and also with micro-organisms such as bacteria and fungi.
+          Plant interact with each other, and also with micro-organisms such as bacteria and fungi.
         actions:
           - label: Learn more
             url: /plant_interaction

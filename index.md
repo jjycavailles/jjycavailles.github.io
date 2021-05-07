@@ -1,7 +1,7 @@
 ---
 lang: en
 ref: index
-title: Jerome Cavailles
+title: Jerome Cavailles (website building)
 sections:
   - type: hero_section
     title: 'Jerome Cavailles'

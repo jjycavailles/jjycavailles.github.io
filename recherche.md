@@ -4,16 +4,16 @@ lang: fr
 ref: research
 sections:
   - type: features_section
-    title: Research
+    title: Recherche
     subtitle: Ce que je fais en these
     features:
       - title: J'etudie l'interactions des plantes ...
         subtitle:
         content: >-
-          Plant interact with each others, and also with micro-organisms such as bacteria and fungi.
+          Les plantes interagissent les unes avec les autres, ainsi qu'avec les micro-organismes tels que les bactéries et les champignons.
         actions:
-          - label: Learn more
-            url: /plant_interaction
+          - label: Plus
+            url: /posts/symbioses
             style: primary
             has_icon: true
             icon: arrow-right
@@ -25,10 +25,10 @@ sections:
       - title: ... en utilisant la theorie des jeux
         subtitle: 
         content: >-
-          Game theory is the study of the interactions between different agents. As far as I’m concerned, the agents are plants, animals or other living organisms. However game theory can also be used to model interactions between humans, institutions, computers, etc.
+          La théorie des jeux est l'étude des interactions entre différents agents. En ce qui me concerne, les agents sont des plantes, des animaux ou d’autres organismes vivants. Cependant, la théorie des jeux peut également être utilisée pour modéliser les interactions entre les humains, les institutions, les ordinateurs, etc.
         actions:
-          - label: Learn More
-            url: /game_theory
+          - label: Plus
+            url: /posts/theorie_des_jeux
             style: primary
             has_icon: true
             icon: arrow-right
