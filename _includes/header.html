@@ -10,8 +10,6 @@
 				<a class="navbar__title h4 m-0" href='{{ '/' | relative_url }}'>{{ site.header.title }}</a>
 				{% endif %}
 			</div>
-			
-
 			{% if site.header.has_primary_nav or site.header.has_secondary_nav %}
 			<div class="navbar__container flex-md-auto">
 				<div class="navbar__scroller">
@@ -47,19 +45,27 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 			<ul>
 			{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
 			{% for post in posts %}
-			  <li>
-			    <a href="{{ site.baseurl | append: post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
-			  </li>
+			    <a href="{{ site.baseurl | append: post.url }}" class="{{ post.lang }}">{{ site.data.languages[post.lang].icon }}</a>
 			{% endfor %}
 
 			{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
 			{% for page in pages %}
-			  <li>
-			    <a href="{{ site.baseurl | append: page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
-			  </li>
+			    <a href="{{ site.baseurl | append: page.url }}" class="{{ page.lang }}">{{ site.data.languages[page.lang].icon }}</a>
 			{% endfor %}
 			</ul>
 

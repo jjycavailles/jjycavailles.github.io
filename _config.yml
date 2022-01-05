@@ -1,5 +1,6 @@
-title: Jerome Cavailles
+title: Interaction Integration
 url: "https://jjycavailles.github.io/"
+google_analytics: G-VPTWJKGKTG
 lang: en
 permalink: '/:title/'
 collections:
@@ -11,9 +12,9 @@ palette: 007000
 mode: light
 base_font: serif
 header:
-  title: Jerome Cavailles
   has_primary_nav: true
   primary_nav_links:
+    text_align: left
     t:
       en:
           - label: Home
@@ -25,22 +26,13 @@ header:
           - label: Research
             url: ./research
             style: link
-          - label: Blog
-            url: ./blog
-            style: primary
       fr:
           - label: Accueil
-            url: ./accueil
+            url: ./index_fr
             style: link
-          - label: Formation
-            url: ./formation
+          - label: Moi
+            url: ./moi
             style: link
-          - label: Recherche
-            url: ./recherche
-            style: link
-          - label: Blog
-            url: ./blog_fr
-            style: primary
   has_secondary_nav: false
   has_anncmnt: false
 footer:
@@ -89,13 +81,6 @@ footer:
       icon: github
       icon_position: center
       new_window: true
-
-  content: >-
-    &copy; Stackbit. All rights reserved. This Jamstack site was created with <a
-    href="https://www.stackbit.com/?utm_source=deployed-footer" target="_blank"
-    rel="noopener">Stackbit</a>. Create yours <a
-    href="https://app.stackbit.com/create?theme=personal&utm_source=deployed-footer"
-    target="_blank" rel="noopener">now</a>
 sass:
   indentWidth: 4
   style: expanded

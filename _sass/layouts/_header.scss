@@ -59,7 +59,7 @@
 
 	.navbar__inner {
 		padding: 1.66667rem;
-		text-align: right;
+		text-align: left;
 	}
 
 	.navbar__menu {
@@ -102,7 +102,7 @@
 	
 		.navbar__container {
 			right: 0;
-			transition: right .3s ease;
+			transition: left .3s ease;
 			visibility: visible;
 		}
 	}

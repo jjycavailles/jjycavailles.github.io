@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Books"
+title:  "Selection of books"
 date:   2016-05-20 21:21:21 +0530
 categories: ["English"]
 ref: book

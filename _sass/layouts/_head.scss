@@ -40,12 +40,12 @@
 		backface-visibility: hidden;
 		background-color: $color-nav-mobile-bg;
 		bottom: 0;
-		right: -100%;
+		right: 100%;
 		max-width: container-max-width(small);
 		-webkit-overflow-scrolling: touch;
 		position: fixed;
 		top: 0;
-		transition: right .3s cubic-bezier(.65,.05,.36,1), visibility 0s .3s;
+		transition: left .3s cubic-bezier(.65,.05,.36,1), visibility 0s .3s;
 		visibility: hidden;
 		width: 100%;
 		z-index: 999;
@@ -59,7 +59,7 @@
 
 	.navbar__inner {
 		padding: 1.66667rem;
-		text-align: right;
+		text-align: left;
 	}
 
 	.navbar__menu {
@@ -102,7 +102,7 @@
 	
 		.navbar__container {
 			right: 0;
-			transition: right .3s ease;
+			transition: left .3s ease;
 			visibility: visible;
 		}
 	}

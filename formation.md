@@ -19,7 +19,7 @@ layout: page
 ---
 
 
-#### Doctorant (PhD) - Graz university - 2019/2023
+#### Doctorant - Graz university - 2019/2023
 
 Je suis intéressé par la modélisation mathématique des relations symbiotiques (en particulier des mycorhizes) et des processus évolutifs qui en résultent en utilisant des techniques de la théorie des jeux. Mon objectif est de modéliser le rôle des conditions environnementales sur la stabilité des symbioses.
 
