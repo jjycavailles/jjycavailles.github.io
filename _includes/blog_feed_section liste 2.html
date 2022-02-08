@@ -1,0 +1,45 @@
+{% assign section = include.section %}
+
+{% assign align_x = section.align | default: 'center' %}
+{% assign padding_top = section.padding_top | default: 'medium' %}
+{% assign padding_bottom = section.padding_bottom | default: 'medium' %}
+
+{% assign bg_color = section.background_color | default: 'none' %}
+{% assign bg_img_opacity_pct = section.background_image_opacity | default: 100 %}
+{% assign bg_img_opacity = bg_img_opacity_pct | times: 0.01 %}
+{% assign bg_img_size = section.background_image_size | default: 'cover' %}
+{% assign bg_img_position = section.background_image_position | default: 'center center' %}
+{% assign bg_img_repeat = section.background_image_repeat | default: 'no-repeat' %}
+
+{% assign feature_padding_y = section.feature_padding_vert | default: 'medium' %}
+
+<section class="section features{% assign has_border_is_not_empty = section.has_border | is_not_empty %}{% if has_border_is_not_empty %} has-border{% endif %}{% assign background_image_is_not_empty = section.background_image | is_not_empty %}{% if background_image_is_not_empty %} has-cover{% endif %}{% if bg_color == 'none' %} bg-none{% endif %}{% if bg_color == 'primary' %} bg-primary{% endif %}{% if bg_color == 'secondary' %} bg-secondary{% endif %}{% if padding_top == 'small' %} pt-4{% endif %}{% if padding_top == 'medium' or padding_top == 'large' %} pt-6{% endif %}{% if padding_top == 'large' %} pt-md-7{% endif %}{% if padding_bottom == 'small' %} pb-4{% endif %}{% if padding_bottom == 'medium' or padding_bottom == 'large' %} pb-6{% endif %}{% if padding_bottom == 'large' %} pb-md-7{% endif %}">
+
+	<div>
+	{% assign postsCategory = site.posts | group_by_exp:"post", "post.categories"  %}
+	{% for category in postsCategory %}
+	<h4 class="post-teaser__month">
+	<strong>
+	{% if category.name %} 
+	- - - - -  {{ category.name }} - - - - - 
+	{% else %} 
+	{{ Print }} 
+	{% endif %}
+	</strong>
+	</h4>
+	<ul class="list-posts">
+	{% for post in category.items %}
+	<li class="post-teaser">
+	<a href="{{ post.url | prepend: site.baseurl }}">
+	<span class="post-teaser__title">{{ post.title }}</span>
+	</a>
+	</li>
+	{% endfor %}
+	</ul>
+	{% endfor %}
+	</div>
+
+</section>
+
+
+

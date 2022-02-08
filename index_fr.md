@@ -7,7 +7,7 @@ sections:
   - type: grid_section
     grid_items:
       - content: >-
-          <iframe style="border:none; zoom:0.7; -ms-zoom: 0.7;-moz-transform: scale(0.7);-moz-transform-origin: 0.7;-o-transform: scale(0.7);-o-transform-origin: 0.7;-webkit-transform: scale(0.7);-webkit-transform-origin: 0 ; width: 1100px; height: 900px" src="//netlogoweb.org/web?http://netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Fire.nlogo" ></iframe>
+          <iframe style="border:none; width: 150%; height: 900px ; frameborder: 0" scrolling="yes" src="//netlogoweb.org/web?http://netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Fire.nlogo" ></iframe>
       - title: Géométrie d'un arbre
         subtitle: Comment modéliser mathématiquement la forme d'un arbre ?
         content: >-

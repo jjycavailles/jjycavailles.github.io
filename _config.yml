@@ -20,11 +20,8 @@ header:
           - label: Home
             url: ./
             style: link
-          - label: Resume
-            url: ./resume
-            style: link
-          - label: Research
-            url: ./research
+          - label: About me
+            url: ./me
             style: link
       fr:
           - label: Accueil

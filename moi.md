@@ -4,48 +4,40 @@ title: Jerome Cavailles
 lang: fr
 ref: moi
 sections:
-  - type: hero_section
-    title: 'Jerome Cavailles'
-    subtitle: >-
-      Doctorant en biologie a l'universite de Graz<https://www.uni-graz.at/en/>. J'aime appliquer les mathématiques à la compréhension des phénomènes naturels et humains (agroécologie, écologie, modélisation du vivant, sociologie ...). Je suis passionné par les mathématiques pour leur côté universel et leurs applications transdisciplinaires.
-    actions:
-      - label: jjycavailles@gmail.com
-        url: mailto:jjycavailles@gmail.com
-        style: primary
-    image: images/moi.jpg
-    image_alt: me
-    media_position: right
-    media_width: fifty
-    align: left
-    padding_top: large
-    padding_bottom: large
+  - type: grid_section
+    title: Jérôme Cavaillès
+    grid_items:
+      - title: 
+        content: >-
+          Je suis doctorant en biologie a l'[université de Graz](https://www.uni-graz.at/en/). De façon générale, je cherche à comprendre comment des systèmes (êtres vivants, écosystèmes, civilisations, cerveau etc...) se structurent pour faire face à des changements environnementaux. Mon but ultime est de développer une théorie transdisciplinaire de la résilience des systèmes.
+        actions:
+          - label: jjycavailles@gmail.com
+            url: mailto:jjycavailles@gmail.com
+            style: primary
+      - content: >-
+          <img src="../images/moi.jpg" alt="moi" width="300"/>
+    grid_cols: two
+    grid_gap_horiz: large
+    grid_gap_vert: large
+    align: center
     background_color: primary
     background_image_repeat: repeat
     background_image_size: contain
     background_image_opacity: 8
-  - type: features_section
+  - type: grid_section
     title: Recherche
-    subtitle: Ce que je fais en these
-    features:
-      - title: J'etudie les "interactions" en biologie ...
-        subtitle:
+    subtitle: Ce que je fais en thèse
+    grid_items:
+      - title: J'étudie l'écologie ...
         content: >-
-          Les plantes interagissent les unes avec les autres, ainsi qu'avec les micro-organismes tels que les bactéries et les champignons. BIOLOGIE DANS UN ENV CHANGEANT
-        actions:
-          - label: Plus
-            url: /posts/symbioses
-            style: primary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-        image: images/interaction_plant.jpg
-        image_alt: plant interaction
-        media_position: right
-        media_width: fifty
-      - title: ... en utilisant la theorie des jeux
-        subtitle: 
+          L'écologie est la science qui étudie les interactions entre les êtres vivants. Je m'intéresse particulièrement à l'organisation des individus face à des changements environnementaux.
+      - content: >-
+          <img src="../images/interaction_plant.jpg" alt="interaction" width="400" align="left"> 
+      - content: >-
+          <img src="../images/chess.jpg" alt="chess" width="400" align="right"> 
+      - title: ... en utilisant la théorie des jeux
         content: >-
-          La théorie des jeux est l'étude MATHEMATIQUES des interactions entre différents agents. En ce qui me concerne, les agents sont des plantes, des animaux ou d’autres organismes vivants. Cependant, la théorie des jeux peut également être utilisée pour modéliser les interactions entre les humains, les institutions, les ordinateurs, etc.
+          La théorie des jeux est l'étude mathématiques des interactions stratégiques entre différents agents. En ce qui me concerne, les agents sont des plantes, des animaux ou d’autres organismes vivants. Cependant, la théorie des jeux peut également être utilisée pour modéliser les interactions entre les humains, les institutions, les ordinateurs, etc...
         actions:
           - label: Plus
             url: /posts/theorie_des_jeux
@@ -53,59 +45,67 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
-        image: images/chess.jpg
-        image_alt: chess
-        media_position: left
-        media_width: fifty
-    feature_padding_vert: large
+    grid_cols: two
+    grid_gap_horiz: large
+    grid_gap_vert: large
     align: center
-    background_color: none
-  - type: features_section
+    background_color: secondary
+    background_image_repeat: repeat
+    background_image_size: contain
+    background_image_opacity: 8
+  - type: grid_section
     title: Stages
-    subtitle: Mes precedentes experiences professionnelles
-    features:
+    subtitle: Mes précédentes expériences professionnelles
+    grid_items:
       - title: CNRS (2019)
         subtitle: Effets déstabilisants du contrôle du comportement des écosystèmes
         content: >-
           Comprendre comment et quand une intervention humaine pour stabiliser la dynamique d’un écosystème peut conduire à un écosystème plus fragile. En particulier, explorer si minimiser communément les mesures de stabilité utilisées (telles que la variabilité temporelle) peuvent augmenter les risques d’événements extrêmes, comme un effondrement de l’écosystème.
-        image: images/cbtm.jpeg
-        image_alt: cbtm
-        media_position: right
-        media_width: fifty
+        actions:
+          - label: CBTM
+            url: https://sete-moulis-cnrs.fr/fr/recherches/ctmb
+            style: primary
+      - content: >-
+          <img src="../images/cbtm.jpeg" alt="cbtm" width="300" align="left"> 
+      - content: >-
+          <img src="../images/carre.png" alt="classification" width="300" align="right"> 
       - title: WeatherForce (2018)
-        subtitle: Statistiques pour la meteo
+        subtitle: Statistiques pour la météo
         content: >-
           Étude de la classification en régimes de temps et de leurs impacts pour des utilisations métiers. Développement des outils dédiés à la classification d’une journée. Évaluation de leur impacts sur des variables utilisateurs.
         actions:
           - label: WeatherForce
             url: https://weatherforce.org/
             style: primary
-        image: images/carre.png
-        image_alt: weather force
-        media_position: left
-        media_width: fifty
-    feature_padding_vert: large
+    grid_cols: two
+    grid_gap_horiz: large
+    grid_gap_vert: large
     align: center
     background_color: primary
-  - type: features_section
+    background_image_repeat: repeat
+    background_image_size: contain
+    background_image_opacity: 8
+  - type: grid_section
     title: Formations
-    subtitle:
-    features:
-      - title: Insa Toulouse
-        subtitle: Ecole d'ingenieur
+    grid_items:
+      - title: INSA Toulouse
+        subtitle: Ecole d'ingénieur
         content: >-
-          Pression de l'air autour d'une aile d'avion !!!!!!!!!!! rajouter du texte
+          Lors de ma formation j’ai principalement développer mes compétences dans les domaines de la modélisation, de la simulation et de l’optimisation. A droite, on peut voir une simulation effectue en cours de mécaniques des fluides. On peut voir la sous pression au dessus d’une aile d’avion.
         actions:
-          - label: Departement Mathematiques
+          - label: Département de Mathématiques
             url: https://www.math.insa-toulouse.fr/fr/index.html
             style: primary
-        image: ../images/b.jpg
-        image_alt: Ecoulement autour d'une aile d'avion
-        media_position: right
-        media_width: fifty
-    feature_padding_vert: large
+      - content: >-
+          <img src="../images/b.jpg" alt="aile" width="300" align="center"/>
+    grid_cols: two
+    grid_gap_horiz: large
+    grid_gap_vert: large
     align: center
-    background_color: none
+    background_color: secondary
+    background_image_repeat: repeat
+    background_image_size: contain
+    background_image_opacity: 8
 seo:
   title: Jerome Cavailles
   description: Page personnelle

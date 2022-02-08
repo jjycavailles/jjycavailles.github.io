@@ -73,4 +73,7 @@
 
 		</nav>
 	</div>
+{% if site.google_analytics and jekyll.environment == 'production' %}
+{% include google-analytics.html %}
+{% endif %}
 </header>

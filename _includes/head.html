@@ -9,4 +9,11 @@
   <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />
 {% endfor %}
 ...
+
+
+{% if site.google_analytics and jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+
+
 </head>

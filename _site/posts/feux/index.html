@@ -140,6 +140,8 @@
 			<ul>
 			
 			
+			    <a href="/posts/fires/" class="en">🇬🇧</a>
+			
 			    <a href="/posts/feux/" class="fr">🇫🇷</a>
 			
 
@@ -151,6 +153,7 @@
 
 		</nav>
 	</div>
+
 </header>
 
 
@@ -161,30 +164,28 @@
 			<h1 class="page__title">Feux de forêt (simulation)</h1>
 		</header>
 		<div class="page__body text-block">
-			<p>Dans cet article on va etudier un modèle simple qui représente la propagation d’un feux de forêt.</p>
+			<p>Dans cet article on va etudier un modèle simple qui représente la propagation d’un feux de forêt. Ce modele a ete adapte de l’exemple fourni sur le site officiel de <a href="http://netlogoweb.org/launch#http://netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Fire.nlogo" target="_blank">NetLogo</a>.</p>
 
-<p>On représente un morceau foret avec des points verts pour les arbres et des points noirs la ou il n’y a rien.</p>
+<p>On représente un morceau de forêt avec des points verts pour les arbres et des points noirs pour les rochers.</p>
 
 <p><img src="/images/feux_init.png" width="300" /></p>
 
-<p>Ensuite, un feux est déclanché sur la partie gauche de la foret. Le feux est représenté par des points rouges.
+<p>Ensuite, un feux est déclenché sur la partie gauche de la foret. Le feux est représenté par des points rouges.
 Le feux peut seulement brûler les arbres (points vert). Ainsi les points noirs empêchent le feux de se propager.</p>
 
 <p><img src="/images/feux_milieu.png" width="300" /></p>
 
-<p>En fonction de la densité d’arbre (la proportion de points verts) le feux arrive ou non a se propager jusqu’a la droite de la foret.</p>
+<p>En fonction de la densité d’arbre (la proportion de points verts) le feux arrive ou non a se propager jusqu’à la droite de la foret.</p>
 
-<p><a href="http://netlogoweb.org/launch#http://netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Fire.nlogo" target="_blank">Lien pour la simulation d’un feux de forêt</a></p>
+<p>Pour lancer la simulation, il faut cliquer sur “setup” puis sur “go”.</p>
 
-<p>Cliquer sur “setup” puis sur “go”.</p>
+<p>Quelle densité d’arbre allez vous choisir, pour maximiser la production de bois sans risquer qu’un feux brûle toute la foret ? Essaye de relancer la simulation (setup) avec différentes densité (density) pour maximiser la valeur finale de “money”.</p>
+
+<iframe width="1000" height="900" frameborder="0" src="../../simulations/Fires.html"></iframe>
 
 <p>On peut remarquer qu’il existe une densité critique au delà du quel la foret va presque toujours brûler jusqu’à la droite.
 En effet, pour une densité au dessus de 65% la foret jusqu’a la droite. En revanche pour une densité en dessous de 55%, le feux est rapidement arrêté par manque d’arbre cote a cote.</p>
 
-<h1 id="animation-iframe-">Animation iframe ?</h1>
-<iframe width="1000" height="900" src="//netlogoweb.org/web?http://netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Fire.nlogo"></iframe>
-
-<h6 id="faut-mieux-expliquer-que-ca-leffet-de-seuil-il-faut-que-lutilisateur-cherche-a-maximiser-la-production-darbres-et-doivent-sarreter-juste-avant-le-seuil">faut mieux expliquer que ca l’effet de seuil, il faut que l’utilisateur cherche a maximiser la production d’arbres, et doivent s’arreter juste avant le seuil.</h6>
 
 		</div>
 	</div>

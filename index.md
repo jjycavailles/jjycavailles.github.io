@@ -6,7 +6,7 @@ sections:
   - type: hero_section
     title: 'titre de la simu'
     subtitle: >-
-      PhD student in theoretical biology at the university of Graz.
+      fractal tree
     actions:
       - label: Resume
         url: ./resume
@@ -58,3 +58,14 @@ seo:
       relativeUrl: true
 layout: advanced
 ---
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VPTWJKGKTG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VPTWJKGKTG');
+</script>
