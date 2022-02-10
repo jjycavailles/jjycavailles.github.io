@@ -3,31 +3,32 @@ lang: en
 ref: index
 title: Jerome Cavailles (website building)
 sections:
-  - type: hero_section
-    title: 'titre de la simu'
-    subtitle: >-
-      fractal tree
-    actions:
-      - label: Resume
-        url: ./resume
-        style: secondary
-      - label: Research
-        url: ./research
-        style: primary
-    image: images/moi.jpg
-    image_alt: me
-    media_position: right
-    media_width: fifty
-    align: left
-    padding_top: large
-    padding_bottom: large
+  - type: grid_section
+    grid_items:
+      - content: >-
+          <iframe style="border:none; width: 450px; height: 720px ; frameborder: 0" scrolling="no" src="../../simulations/predation_home.html" ></iframe>
+      - title: Sheep and Wolves
+        subtitle: How to mathematically model the populations of sheep and wolves?
+        content: >-
+          Here, I will tell you about one of the first mathematical models in population ecology, it is the Lotka Volterra system. To launch the simulation, click on "setup", then on "go".
+
+
+          Two populations can be distinguished, wolves and sheep. Sheep eat grass and breed regularly. They can be eaten by wolves. Wolves need to eat sheep to be able to reproduce themselves, and if they don't eat enough, they end up dying.
+        actions:
+          - label: Plus
+            url: /posts/Lotka-Volterra
+            style: primary
+    grid_cols: two
+    grid_gap_horiz: medium
+    grid_gap_vert: large
+    align: center
     background_color: primary
     background_image_repeat: repeat
     background_image_size: contain
     background_image_opacity: 8
   - type: blog_feed_section
     title: Blog
-    subtitle:
+    subtitle: Other articles
     show_recent: true
     recent_count: 6
 seo:

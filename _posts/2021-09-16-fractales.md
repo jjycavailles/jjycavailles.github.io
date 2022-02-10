@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Arbres fractales (simulation)"
+title:  "Geometrie des arbres (simulation)"
 date:   2016-05-20 21:21:21 +0530
 categories: ["Français"]
 ref: fractales
@@ -80,6 +80,7 @@ On peut reproduire assez fidelement la geometrie d'un arbre avec de simples regl
 
 [interstices, Cultivons notre jardin](https://interstices.info/cultivons-notre-jardin/)
 
+Le livre : "The Algorithmic Beauty of Plants"
 
 
 

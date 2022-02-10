@@ -7,14 +7,17 @@ sections:
   - type: grid_section
     grid_items:
       - content: >-
-          <iframe style="border:none; width: 150%; height: 900px ; frameborder: 0" scrolling="yes" src="//netlogoweb.org/web?http://netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Fire.nlogo" ></iframe>
-      - title: Géométrie d'un arbre
-        subtitle: Comment modéliser mathématiquement la forme d'un arbre ?
+          <iframe style="border:none; width: 450px; height: 720px ; frameborder: 0" scrolling="no" src="../../simulations/predation_home.html" ></iframe>
+      - title: Moutons et Loups
+        subtitle: Comment modéliser mathématiquement les populations de moutons et de loups ?
         content: >-
-          On peut remarquer que la structure d'un arbre se repete lorqu'on zoome sur une partie de celui-ci. C'est cette propriete que l'on va exploiter pour generer des arbres. 
+          Ici, je vais vous parler d’un des premiers modeles mathematiques en ecologie des populations, il s’agit du systeme de Lotka Volterra. Pour lancer la simulation, cliquer sur "setup", puis sur "go". 
+
+
+          On peut distinguer deux populations, les loups et les moutons. Les moutons mangent l'herbe et se reproduisent regulierement. Ils peuvent etre manger par des loups. Les loups ont besoin de manger des moutons pour pouvoir eux-aussi se reproduirent, et si ils ne mengent pas assez, ils finissent par mourir.
         actions:
           - label: Plus
-            url: /posts/fractales/
+            url: /posts/Lotka-Volterra
             style: primary
     grid_cols: two
     grid_gap_horiz: medium
@@ -24,23 +27,6 @@ sections:
     background_image_repeat: repeat
     background_image_size: contain
     background_image_opacity: 8
-  - type: features_section
-    features:
-      - title: Predation
-        subtitle:
-        content: >-
-          Ici, on va simulation la predation des moutons par des loups ...... detailler ...
-        actions:
-          - label: Simulation
-            url: /posts/Lotka-Volterra
-            style: primary
-        image: images/predation.png
-        image_alt: plant interaction
-        media_position: right
-        media_width: fifty
-    feature_padding_vert: large
-    align: center
-    background_color: none
   - type: blog_feed_section
     title: Blog
     subtitle: Autres articles

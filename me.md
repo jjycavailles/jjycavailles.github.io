@@ -9,7 +9,7 @@ sections:
     grid_items:
       - title: 
         content: >-
-          I am a PhD student in biology at the [University of Graz](https://www.uni-graz.at/en/). In general, I seek to understand how systems (living beings, ecosystems, civilizations, brain, etc.) are structured to deal with environmental changes. My ultimate goal is to develop a transdisciplinary theory of systems resilience.
+          I am a PhD student in biology at the [University of Graz](https://www.uni-graz.at/en/). In general, I seek to understand how systems (living beings, ecosystems, civilizations, brain, etc.) are structured to deal with environmental changes. My ultimate goal is to develop a transdisciplinary theory of systems in changing environments with everyday life applications.
         actions:
           - label: jjycavailles@gmail.com
             url: mailto:jjycavailles@gmail.com

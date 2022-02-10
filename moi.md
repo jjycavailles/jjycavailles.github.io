@@ -9,7 +9,7 @@ sections:
     grid_items:
       - title: 
         content: >-
-          Je suis doctorant en biologie a l'[université de Graz](https://www.uni-graz.at/en/). De façon générale, je cherche à comprendre comment des systèmes (êtres vivants, écosystèmes, civilisations, cerveau etc...) se structurent pour faire face à des changements environnementaux. Mon but ultime est de développer une théorie transdisciplinaire de la résilience des systèmes.
+          Je suis doctorant en biologie a l'[université de Graz](https://www.uni-graz.at/en/). De façon générale, je cherche à comprendre comment des systèmes (êtres vivants, écosystèmes, civilisations, cerveau etc...) se structurent pour faire face à des changements environnementaux. Mon but ultime est de développer une théorie transdisciplinaire des systèmes dans des environnements changeants avec des applications de la vie quotidienne.
         actions:
           - label: jjycavailles@gmail.com
             url: mailto:jjycavailles@gmail.com
