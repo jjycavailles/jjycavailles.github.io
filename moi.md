@@ -109,28 +109,17 @@ sections:
 seo:
   title: Jerome Cavailles
   description: Page personnelle
-  extra:
-    - name: 'og:type'
-      value: website
-      keyName: property
-    - name: 'og:title'
-      value: Stackbit Personal Theme
-      keyName: property
-    - name: 'og:description'
-      value: The preview of the Personal theme
-      keyName: property
-    - name: 'og:image'
-      value: images/personal-preview.png
-      keyName: property
-      relativeUrl: true
-    - name: 'twitter:card'
-      value: summary_large_image
-    - name: 'twitter:title'
-      value: Stackbit Personal Theme
-    - name: 'twitter:description'
-      value: The preview of the Personal theme
-    - name: 'twitter:image'
-      value: images/personal-preview.png
       relativeUrl: true
 layout: advanced
 ---
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VPTWJKGKTG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VPTWJKGKTG');
+</script>
