@@ -20,7 +20,7 @@ header:
           - label: Home
             url: ./
             style: link
-          - label: About me
+          - label: Me
             url: ./me
             style: link
       fr:
@@ -29,32 +29,10 @@ header:
             style: link
           - label: Moi
             url: ./moi
-            style: link
+            style: link            
   has_secondary_nav: false
   has_anncmnt: false
 footer:
-  has_primary_nav: true
-  primary_nav_links:
-    - label: Resume
-      url: ./resume
-      style: link
-    - label: Research
-      url: ./research
-      style: link
-    - label: Blog
-      url: ./blog
-      style: link
-  has_secondary_nav: true
-  secondary_nav_links:
-    - label: Style Guide
-      url: /style-guide
-      style: link
-    - label: Terms & Conditions
-      url: /terms-conditions
-      style: link
-    - label: Privacy Policy
-      url: /privacy-policy
-      style: link
   has_social: true
   social_links:
     - label: Twitter
