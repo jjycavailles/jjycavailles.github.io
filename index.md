@@ -31,6 +31,49 @@ sections:
     subtitle: Other articles
     show_recent: true
     recent_count: 6
+  - type: form_section
+    content: >-
+      ## Feedback
+
+
+      This site is under construction. I welcome with great pleasure any opinion, remarks on the site in general.
+      If you have ideas for articles and new simulations, I will also be happy to receive suggestions.
+      
+
+      Thank you in advance for your assistance !
+    content_align: left
+    form_position: right
+    form_width: fifty
+    form_layout: stacked
+    enable_card: true
+    form_id: contact-form
+    form_action: https://formspree.io/f/mpzbpvvy
+    form_fields:
+      - input_type: text
+        name: name
+        label: Name
+        default_value: Your name
+        is_required: true
+      - input_type: email
+        name: email
+        label: Email
+        default_value: Your email address
+        is_required: true
+      - input_type: textarea
+        name: message
+        label: Message
+        default_value: Your message
+      - input_type: checkbox
+        name: consent
+        label: >-
+          I understand that this form is storing my submitted information so I
+          can be contacted.
+        is_required: true
+    submit_label: Send Message
+    align_vert: top
+    padding_top: medium
+    padding_bottom: medium
+    background_color: primary
 seo:
   title: Jerome Cavailles
   description: The preview of the Personal theme

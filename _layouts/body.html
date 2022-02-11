@@ -3,7 +3,6 @@ layout: base
 ---
 
 <div id="site-wrap" class="site">
-	{% include announcement.html site=site %}
 	{% if site.header.has_anncmnt and site.header.anncmnt_content %}
 		{% assign anncmnt_is_home_only_is_not_empty = site.header.anncmnt_is_home_only | is_not_empty %}
 		{% if anncmnt_is_home_only_is_not_empty %}
