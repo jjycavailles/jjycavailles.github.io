@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Jerome Cavailles
+title: Moi
 lang: fr
 ref: moi
 sections:
@@ -107,7 +107,7 @@ sections:
     background_image_size: contain
     background_image_opacity: 8
 seo:
-  title: Jerome Cavailles
+  title: Moi
   description: Page personnelle
   extra:
     - name: 'og:type'

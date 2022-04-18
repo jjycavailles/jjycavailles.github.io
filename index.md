@@ -1,7 +1,7 @@
 ---
 lang: en
 ref: index
-title: Jerome Cavailles (website building)
+title: "Home"
 sections:
   - type: grid_section
     grid_items:
@@ -38,9 +38,13 @@ sections:
 
       This site is under construction. I welcome with great pleasure any opinion, remarks on the site in general.
       If you have ideas for articles and new simulations, I will also be happy to receive suggestions.
-      
+
 
       Thank you in advance for your assistance !
+
+
+      <img src="../images/website_cas.png" alt="moi" width="500"/>
+
     content_align: left
     form_position: right
     form_width: fifty
@@ -75,8 +79,8 @@ sections:
     padding_bottom: medium
     background_color: primary
 seo:
-  title: Jerome Cavailles
-  description: The preview of the Personal theme
+  title: Home
+  description: Academic blog
   extra:
     - name: 'og:type'
       value: website

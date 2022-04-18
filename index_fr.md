@@ -2,7 +2,7 @@
 layout: page
 lang: fr
 ref: index
-title: Jerome Cavailles 
+title: "Accueil"
 sections:
   - type: grid_section
     grid_items:
@@ -42,6 +42,10 @@ sections:
       
 
       Merci d'avance de votre aide !
+
+      
+      <img src="../images/website_cas.png" alt="moi" width="500"/>
+
     content_align: left
     form_position: right
     form_width: fifty
@@ -75,8 +79,8 @@ sections:
     padding_bottom: medium
     background_color: primary
 seo:
-  title: Jerome Cavailles
-  description: The preview of the Personal theme
+  title: Accueil
+  description: Academic blog
   extra:
     - name: 'og:type'
       value: website
