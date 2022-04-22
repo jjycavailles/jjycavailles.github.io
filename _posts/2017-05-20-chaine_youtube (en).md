@@ -1,9 +1,11 @@
 ---
 layout: page
-title:  "Selection of YouTube channels"
-date:   2016-05-20 21:21:21 +0530
-categories: ["English"]
+title:  "Youtube"
+date:   2022-04-18 21:21:21 +0530
+categories: ["selection"]
 ref: youtube
+image: ../../images/youtube.png
+description: "Selection of my favorite YouTube channels"
 lang: en
 ---
 
@@ -22,6 +24,11 @@ lang: en
 
 
 
+### To see after:
+
+[Selection of Youtube channels in French](../chaine_youtube)
+
+
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -33,3 +40,6 @@ lang: en
 
   gtag('config', 'G-VPTWJKGKTG');
 </script>
+
+
+

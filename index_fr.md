@@ -30,11 +30,12 @@ sections:
   - type: blog_feed_section
     title: Blog
     subtitle: Autres articles
+    langue: fr
     show_recent: true
     recent_count: 6
   - type: form_section
     content: >-
-      ## Contact
+      # Feedback
 
 
       Ce site est en cours de construction. J'accueil avec grand plaisir tout avis, remarques sur le site en general.

@@ -20,6 +20,9 @@ header:
           - label: Home
             url: ./
             style: link
+          - label: Blog
+            url: ./blog
+            style: link
           - label: Me
             url: ./me
             style: link
@@ -27,6 +30,9 @@ header:
           - label: Accueil
             url: ./index_fr
             style: link
+          - label: Blog
+            url: ./blog_fr
+            style: link                        
           - label: Moi
             url: ./moi
             style: link            

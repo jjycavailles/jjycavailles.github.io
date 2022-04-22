@@ -1,8 +1,10 @@
 ---
 layout: page
-title:  "Geometrie des arbres (simulation)"
-date:   2016-05-20 21:21:21 +0530
-categories: ["Français"]
+title:  "Geometrie des arbres"
+date:   2022-04-18 21:21:21 +0530
+categories: ["simulation"]
+image: ../../images/Fractal_canopy.svg.png
+description: "Modelisation de la geometrie d'un arbre"
 ref: fractales
 lang: fr
 ---

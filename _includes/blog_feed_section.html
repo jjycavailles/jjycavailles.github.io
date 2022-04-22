@@ -32,29 +32,34 @@
 	{% endif %}
 	
 	<div class="container">
-		<div>
-		{% assign postsCategory = site.posts | group_by_exp:"post", "post.categories"  %}
-		{% for category in postsCategory %}
-		<h4 class="post-teaser__month">
-		<strong>
-		{% if category.name %} 
-		 {{ category.name }}
-		{% else %} 
-		{{ Print }} 
-		{% endif %}
-		</strong>
-		</h4>
-		<ul class="list-posts">
-		{% for post in category.items %}
-		<li class="post-teaser">
-		<a href="{{ post.url | prepend: site.baseurl }}">
-		<span class="post-teaser__title">{{ post.title }}</span>
-		</a>
-		</li>
-		{% endfor %}
-		</ul>
+
+		<section class="recent-posts">
+		{% assign count = 0 %}
+		
+		<div class=row>
+		{% for post in site.posts %}
+			
+			{% if post.lang == section.langue %}
+			{% assign count = 1 | plus: count %}
+
+			<div class="column">		
+				{% include postbox.html %}
+			</div>
+			
+			{% assign remainder = count | modulo:3 %}
+			
+			{% if remainder == 1 %} 
+			<div class="spacecol">   <p>  </p>   </div>
+			{% endif %}
+			{% if remainder == 2 %} 
+			<div class="spacecol">   <p>  </p>   </div>
+			{% endif %}
+
+			{% endif %}
+
 		{% endfor %}
 		</div>
+		</section>
 	</div>
 
 	{% assign actions_is_not_empty = section.actions | is_not_empty %}

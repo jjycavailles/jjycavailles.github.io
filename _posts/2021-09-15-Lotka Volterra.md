@@ -1,8 +1,10 @@
 ---
 layout: page
-title:  "Moutons et loups (simulation)"
-date:   2016-05-20 21:21:21 +0530
-categories: ["Français"]
+title:  "Moutons et loups"
+date:   2022-04-18 21:21:21 +0530
+categories: ["simulation"]
+image: ../../images/predation.png
+description: "Article interactif pour comprendre l'interet des modeles mathematiques"
 ref: lotka-volterra
 lang: fr
 ---

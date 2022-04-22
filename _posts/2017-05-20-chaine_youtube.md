@@ -1,9 +1,11 @@
 ---
 layout: page
-title:  "Sélection de chaînes YouTube"
-date:   2016-05-20 21:21:21 +0530
-categories: ["Français"]
+title:  "Chaînes YouTube"
+date:   2022-04-18 21:21:21 +0530
+categories: ["selection"]
 ref: youtube
+image: ../../images/youtube.png
+description: "Sélection de mes chaînes Youtube favorites"
 lang: fr
 ---
 
@@ -41,6 +43,12 @@ lang: fr
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jU7gYF5txc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### Pour aller plus loin :
+
+[Sélection de chaînes Youtube en Anglais](../chaine_youtube-(en))
+
+
+
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VPTWJKGKTG"></script>
@@ -51,3 +59,6 @@ lang: fr
 
   gtag('config', 'G-VPTWJKGKTG');
 </script>
+
+
+

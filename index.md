@@ -29,11 +29,12 @@ sections:
   - type: blog_feed_section
     title: Blog
     subtitle: Other articles
+    langue: en
     show_recent: true
     recent_count: 6
   - type: form_section
     content: >-
-      ## Feedback
+      # Feedback
 
 
       This site is under construction. I welcome with great pleasure any opinion, remarks on the site in general.

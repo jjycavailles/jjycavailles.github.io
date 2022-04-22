@@ -1,8 +1,10 @@
 ---
 layout: page
 title:  "Theorie des jeux"
-date:   2016-05-20 21:21:21 +0530
-categories: ["Français"]
+date:   2022-04-18 21:21:21 +0530
+categories: ["definition"]
+image: ../../images/chess_square.jpg
+description: "Explication de la théorie des jeux"
 ref: game_theory
 lang: fr
 ---
