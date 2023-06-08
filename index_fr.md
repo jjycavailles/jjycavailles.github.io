@@ -38,7 +38,7 @@ sections:
       # Feedback
 
 
-      Ce site est en cours de construction. J'accueil avec grand plaisir tout avis, remarques sur le site en general.
+      Ce site est en cours de construction. J'accueille avec grand plaisir tout avis, remarques et conseils sur le site en general.
       Si vous avez des idées d'articles et de nouvelles simulations, je serai également heureux que vous me donniez des suggestions.
       
 

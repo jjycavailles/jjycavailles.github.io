@@ -78,6 +78,8 @@ On peut reproduire assez fidelement la geometrie d'un arbre avec de simples regl
 
 - code inspired from : https://notebook.community/relopezbriega/mi-python-blog/content/notebooks/fractal
 
+[Autre simulation sur l'excellent site de Dirk Brockmann](https://www.complexity-explorables.org/explorables/weeds-and-trees/)
+
 <iframe width="280" height="157" src="https://www.youtube.com/embed/iFA3g_4myFw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [interstices, Cultivons notre jardin](https://interstices.info/cultivons-notre-jardin/)

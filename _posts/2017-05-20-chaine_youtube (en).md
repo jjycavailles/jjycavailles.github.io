@@ -1,10 +1,10 @@
 ---
 layout: page
-title:  "Youtube"
+title:  "Youtube channels"
 date:   2022-04-18 21:21:21 +0530
 categories: ["selection"]
 ref: youtube
-image: ../../images/youtube.png
+image: ../../images/youtube_carre.png
 description: "Selection of my favorite YouTube channels"
 lang: en
 ---
@@ -22,6 +22,10 @@ lang: en
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/V5tUM5aLHPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+### Podcast
+
+- [complexity](https://complexity.simplecast.com/) by the Santa Fe Institute
 
 
 ### To see after:
