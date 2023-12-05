@@ -9,13 +9,14 @@ sections:
     grid_items:
       - title: 
         content: >-
-          I am a PhD student in biology at the [University of Graz](https://www.uni-graz.at/en/). Generally, I seek to understand how systems (living beings, ecosystems, civilizations, brain, etc) are structured to deal with environmental changes. My ultimate goal is to develop a transdisciplinary theory of systems in changing environments with everyday life applications.
+          <div style="text-align: justify">I am a mathematician pursuing a Ph.D. in biology/ecology. I develop mathematical models to understand how ecosystems are structured to cope with environmental changes. <br/> My ultimate goal is to contribute to a transdisciplinary theory of systems in changing environments. My approach involves solving specific puzzles within relevant fields like ecology, ideally with practical applications for everyday life. Step by step, I aim to assimilate different concepts, such as disturbances or self-regulations, into a more general formal framework.</div>
+
         actions:
           - label: jjycavailles@gmail.com
             url: mailto:jjycavailles@gmail.com
             style: primary
       - content: >-
-          <img src="../images/moi.jpg" alt="moi" width="300"/>
+          <img src="../images/moi.jpg" alt="moi" width="400"/>
     grid_cols: two
     grid_gap_horiz: large
     grid_gap_vert: large
@@ -30,14 +31,14 @@ sections:
     grid_items:
       - title: I study ecology...
         content: >-
-          Ecology is the science that studies the interactions between living beings. I am particularly interested in the organization of individuals in the face of environmental changes.
+          <div style="text-align: justify">Ecology, as a scientific discipline, explores the interactions among living beings within their environments. My particular interest lies in understanding how individuals organize themselves in response to environmental changes. This involves exploring the dynamic relationships between organisms and their surroundings, with a focus on adaptation strategies and the resilience of ecological systems in the face of changing environmental conditions.</div>
       - content: >-
           <img src="../images/interaction_plant.jpg" alt="interaction" width="400" align="left"> 
       - content: >-
-          <img src="../images/chess.jpg" alt="chess" width="400" align="right"> 
-      - title: ... by using game theory
+          <img src="../images/Fractal_canopy.svg.png" alt="chess" width="300" align="right"> 
+      - title: ... using mathematical models.
         content: >-
-          Game theory is the mathematical study of strategic interactions between different agents. As far as I am concerned, agents are plants, animals or other living organisms. However, game theory can also be used to model interactions between humans, institutions, computers, etc.
+          <div style="text-align: justify">A mathematical model serves as an abstract representation of a tangible system, employing mathematical concepts and language. It aids in explaining the system, examining the impacts of various components, and making predictions about its behavior. <br/>I utilize various forms of models, including game theory and dynamical systems. Additionally, I have a keen interest in exploring other types of models such as information theory, network theory, decision theory, control theory, and category theory.</div>
         actions:
           - label: Plus
             url: /posts/theorie_des_jeux
@@ -60,7 +61,7 @@ sections:
       - title: CNRS (2019)
         subtitle: Destabilizing effects of controlling the behavior of ecosystems
         content: >-
-          Understanding how and when human intervention to stabilize an ecosystem’s dynamics may actually lead to a more fragile ecosystem. In particular, exploring whether minimizing commonly used stability measures, such as temporal variability, can lead to higher chance of extreme events, such as an ecosystem collapse.
+          <div style="text-align: justify">I investigated the implications of human intervention in stabilizing ecosystem dynamics, exploring the possibility that certain interventions, particularly the reduction of common stability measures like temporal variability, may inadvertently increase the risk of extreme events, such as ecosystem collapse.</div>
         actions:
           - label: CBTM
             url: https://sete-moulis-cnrs.fr/fr/recherches/ctmb
@@ -72,7 +73,7 @@ sections:
       - title: WeatherForce (2018)
         subtitle: Statistics for weather forecast
         content: >-
-          Study of the classification in time regimes and their impacts for business uses. Development of tools dedicated to the classification of a day. Evaluation of their impact on user variables.
+          <div style="text-align: justify">The aim of this internship was to study the classification in time regimes and its implications for business applications. This involved developing tools specifically designed for daily classification and assessing their impact on user variables.</div>
         actions:
           - label: WeatherForce
             url: https://weatherforce.org/
@@ -91,7 +92,7 @@ sections:
       - title: INSA Toulouse
         subtitle: Engineer school
         content: >-
-          During my training, I mainly developed my skills in the areas of modeling, simulation and optimization. On the right, we can see a simulation carried out during fluid mechanics. You can see the pressure above an airplane wing.
+          <div style="text-align: justify">Throughout my training, I primarily developed my skills in modeling, simulation, and optimization. On the right, you can observe a simulation conducted in fluid mechanics, displaying the pressure above an airplane wing.</div>
         actions:
           - label: Mathematics Department
             url: https://www.math.insa-toulouse.fr/fr/index.html

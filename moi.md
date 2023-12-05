@@ -9,13 +9,13 @@ sections:
     grid_items:
       - title: 
         content: >-
-          Je suis doctorant en biologie a l'[université de Graz](https://www.uni-graz.at/en/). De façon générale, je cherche à comprendre comment des systèmes (êtres vivants, écosystèmes, civilisations, cerveau etc...) se structurent pour faire face à des changements environnementaux. Mon but ultime est de développer une théorie transdisciplinaire des systèmes dans des environnements changeants avec des applications de la vie quotidienne.
+          <div style="text-align: justify">Je suis un mathématicien en doctorat en biologie/écologie. Ma recherche se concentre sur le développement de modèles mathématiques pour comprendre la structure des écosystèmes face aux changements environnementaux. <br/>Mon objectif ultime est de contribuer à une théorie transdisciplinaire des systèmes dans des environnements changeants. Mon approche consiste à résoudre des problèmes spécifiques dans des domaines comme l'écologie, idéalement avec des applications pratiques pour la vie quotidienne. Pas à pas, j'espère assimiler différents concepts, tels que les perturbations ou l'autorégulation, dans un cadre mathématique plus général.</div>
         actions:
           - label: jjycavailles@gmail.com
             url: mailto:jjycavailles@gmail.com
             style: primary
       - content: >-
-          <img src="../images/moi.jpg" alt="moi" width="300"/>
+          <img src="../images/moi.jpg" alt="moi" width="400"/>
     grid_cols: two
     grid_gap_horiz: large
     grid_gap_vert: large
@@ -30,14 +30,14 @@ sections:
     grid_items:
       - title: J'étudie l'écologie ...
         content: >-
-          L'écologie est la science qui étudie les interactions entre les êtres vivants. Je m'intéresse particulièrement à l'organisation des individus face à des changements environnementaux.
+          <div style="text-align: justify">L'écologie, en tant que discipline scientifique, explore les interactions entre les êtres vivants et leur environnement. Je m'intéresse particulièrement à la manière dont les individus s'organisent en réponse aux changements environnementaux. Cela implique d'explorer les relations dynamiques entre les organismes et leur environnement, en mettant l'accent sur les stratégies d'adaptation et la résilience des systèmes écologiques face aux changements environnementaux.</div>
       - content: >-
           <img src="../images/interaction_plant.jpg" alt="interaction" width="400" align="left"> 
       - content: >-
-          <img src="../images/chess.jpg" alt="chess" width="400" align="right"> 
-      - title: ... en utilisant la théorie des jeux
+          <img src="../images/Fractal_canopy.svg.png" alt="chess" width="300" align="right"> 
+      - title: ... à l'aide de modèles mathématiques
         content: >-
-          La théorie des jeux est l'étude mathématiques des interactions stratégiques entre différents agents. En ce qui me concerne, les agents sont des plantes, des animaux ou d’autres organismes vivants. Cependant, la théorie des jeux peut également être utilisée pour modéliser les interactions entre les humains, les institutions, les ordinateurs, etc...
+          <div style="text-align: justify">Un modèle mathématique est une représentation abstraite d'un système tangible, utilisant des concepts et un langage mathématiques. Il permet d'expliquer le système, d'examiner l'impact des différents composants et de faire des prédictions sur son comportement. <br/>J'utilise diverses formes de modèles, notamment la théorie des jeux et les systèmes dynamiques. En outre, je m'intéresse vivement à l'exploration d'autres types de modèles tels que la théorie de l'information, la théorie des réseaux, la théorie de la décision, la théorie du contrôle et la théorie des catégories.</div>
         actions:
           - label: Plus
             url: /posts/theorie_des_jeux
@@ -60,7 +60,7 @@ sections:
       - title: CNRS (2019)
         subtitle: Effets déstabilisants du contrôle du comportement des écosystèmes
         content: >-
-          Comprendre comment et quand une intervention humaine pour stabiliser la dynamique d’un écosystème peut conduire à un écosystème plus fragile. En particulier, explorer si minimiser communément les mesures de stabilité utilisées (telles que la variabilité temporelle) peuvent augmenter les risques d’événements extrêmes, comme un effondrement de l’écosystème.
+          <div style="text-align: justify">J'ai étudié les implications de l'intervention humaine dans la stabilisation de la dynamique des écosystèmes, en explorant la possibilité que certaines interventions, en particulier la réduction des mesures de stabilité communes telles que la variabilité temporelle, puissent par inadvertance augmenter le risque d'événements extrêmes, tels que l'effondrement de l'écosystème.</div>
         actions:
           - label: CBTM
             url: https://sete-moulis-cnrs.fr/fr/recherches/ctmb
@@ -72,7 +72,7 @@ sections:
       - title: WeatherForce (2018)
         subtitle: Statistiques pour la météo
         content: >-
-          Étude de la classification en régimes de temps et de leurs impacts pour des utilisations métiers. Développement des outils dédiés à la classification d’une journée. Évaluation de leur impacts sur des variables utilisateurs.
+          <div style="text-align: justify">Étude de la classification en régimes de temps et de leurs impacts pour des utilisations métiers. Développement d'outils dédiés à la classification d'une journée. Évaluation de leurs impacts sur des variables utilisateurs.</div>
         actions:
           - label: WeatherForce
             url: https://weatherforce.org/
@@ -91,7 +91,7 @@ sections:
       - title: INSA Toulouse
         subtitle: Ecole d'ingénieur
         content: >-
-          Lors de ma formation j’ai principalement développer mes compétences dans les domaines de la modélisation, de la simulation et de l’optimisation. A droite, on peut voir une simulation effectue en cours de mécaniques des fluides. On peut voir la sous pression au dessus d’une aile d’avion.
+          <div style="text-align: justify">Lors de ma formation, j'ai principalement développé mes compétences dans les domaines de la modélisation, de la simulation et de l'optimisation. À droite, on peut voir une simulation réalisée en cours de mécanique des fluides, illustrant la pression au-dessus d'une aile d'avion.</div>
         actions:
           - label: Département de Mathématiques
             url: https://www.math.insa-toulouse.fr/fr/index.html

@@ -1,0 +1,70 @@
+<html> 
+<head> 
+</head> 
+<body onload="updateModel();"> 
+  <div>
+    <input type="range" id="recursion" class="slider" min="1" max="10" step="1" value="3">
+    <label for="recursion">iterations</label>
+  </div>
+  <div>
+    <input type="range" id="decay" class="slider" min="0.3" max="0.7" step="0.01" value="0.66">
+    <label for="decay">decay</label>
+  </div>
+  <div>
+    <input type="range" id="rotation" class="slider" min="0" max="1.0471975512" step="0.01" value="0.52359877559">
+    <label for="rotation">angle</label>
+  </div>
+   <canvas id="myCanvas" width="600" height="600"></canvas> 
+</body> 
+
+
+
+<script> 
+function init(decay, rotation, recursion) 
+{ 
+ var canvas = document.getElementById("myCanvas"); 
+ var ctx = canvas.getContext("2d"); 
+ ctx.clearRect(0, 0, 600, 600);
+ var startX = 300; 
+ var startY = 600; 
+ var length = 150; 
+ var angle = Math.PI / 2; 
+ var branchWidth = 10; 
+ drawTree(startX, startY, length, angle, branchWidth, decay, ctx, rotation, recursion); 
+} 
+
+function drawTree(startX, startY, length, angle, branchWidth, decay, ctx, rotation, recursion) { 
+ctx.beginPath(); 
+ctx.moveTo(startX, startY); 
+var endX = startX + length * Math.cos(angle); 
+var endY = startY - length * Math.sin(angle); 
+ctx.lineCap = "round"; 
+ctx.lineWidth = branchWidth; 
+ctx.lineTo(endX, endY); 
+ctx.stroke(); 
+if (recursion > 1) { 
+  var newRec = recursion - 1;
+  drawTree( endX, endY, length * decay, angle + rotation, branchWidth * decay, decay, ctx, rotation, newRec); 
+  drawTree( endX, endY, length * decay, angle - rotation, branchWidth * decay, decay, ctx, rotation, newRec); 
+  drawTree( endX, endY, length * decay, angle, branchWidth * decay, decay, ctx, rotation, newRec); 
+} 
+} 
+
+// Handle changes in sliders
+function updateModel() {
+  const decay = parseFloat(document.getElementById("decay").value);
+  const rotation = parseFloat(document.getElementById("rotation").value);
+  const recursion = parseFloat(document.getElementById("recursion").value);
+  init(decay, rotation, recursion);
+}
+
+// Event listeners for slider changes
+document.getElementById("decay").addEventListener("input", updateModel);
+document.getElementById("rotation").addEventListener("input", updateModel);
+document.getElementById("recursion").addEventListener("input", updateModel);
+
+// Initial plot
+updateModel();
+
+</script> 
+</html>

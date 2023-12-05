@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIR ODE Solver and Plotter</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.8.2/plotly.min.js"></script>
+
+  <div>
+    <input type="range" id="initial" class="slider" min="0.1" max="0.99" step="0.1" value="0.06">
+    <label for="initial">initialement infecté</label>
+  </div>
+  <div>
+    <input type="range" id="transmissibility" class="slider" min="0" max="1" step="0.01" value="0.3">
+    <label for="transmissibility">transmissibilité</label>
+  </div>
+  <div>
+    <input type="range" id="recovery" class="slider" min="0" max="1" step="0.01" value="0.01">
+    <label for="recovery">taux de guérison</label>
+  </div>
+
+</head>
+<body>
+  <div id="plot"></div>
+
+  <script>
+    // Function to define the SIR ODE system
+    function sirODE(t, y, beta, gamma) {
+      const [S, I, R] = y;
+      const dSdt = -beta * S * I;
+      const dIdt = beta * S * I - gamma * I;
+      const dRdt = gamma * I;
+      return [dSdt, dIdt, dRdt];
+    }
+
+    // Function to solve the SIR ODE system using Euler's method
+    function solveSIR(beta, gamma, initial) {
+      const t0 = 0;     // Initial time
+      const y0 = [1-initial, initial, 0];  // Initial values: S, I, R
+      const h = 0.1;    // Step size
+      const numSteps = 1000;
+
+      let tValues = [t0];
+      let yValues = [y0];
+
+      for (let i = 1; i <= numSteps; i++) {
+        const t = tValues[i - 1] + h;
+        const y = yValues[i - 1].map((yi, index) => yi + h * sirODE(t, yValues[i - 1], beta, gamma)[index]);
+        tValues.push(t);
+        yValues.push(y);
+      }
+
+      return { t: tValues, S: yValues.map(y => y[0]), I: yValues.map(y => y[1]), R: yValues.map(y => y[2]) };
+    }
+
+    // Plot the SIR solution using Plotly
+    function plotSIR(beta, gamma, initial) {
+      const solution = solveSIR(beta, gamma, initial);
+
+      const traceI = {
+        x: solution.t,
+        y: solution.I,
+        type: 'scatter',
+        mode: 'lines',
+        name: 'Infectieux',
+	marker: { color: 'red' }
+      };
+
+      const traceS = {
+        x: solution.t,
+        y: solution.S,
+        type: 'scatter',
+        mode: 'lines',
+        name: 'Susceptible',
+	marker: { color: 'green' }
+      };
+
+      const traceR = {
+        x: solution.t,
+        y: solution.R,
+        type: 'scatter',
+        mode: 'lines',
+        name: 'guéris',
+	marker: { color: 'grey' },
+      };
+
+      const layout = {
+        xaxis: { title: 'Temps' },
+        yaxis: { title: 'Fraction de la population', range: [-0.1, 1.1] },
+      };
+
+      Plotly.newPlot('plot', [traceI, traceS, traceR], layout);
+    }
+
+    // Handle changes in sliders
+    function updateModel() {
+  	const initial = parseFloat(document.getElementById("initial").value);
+	const transmissibility = parseFloat(document.getElementById("transmissibility").value);
+  	const recovery = parseFloat(document.getElementById("recovery").value);
+	plotSIR(transmissibility, recovery, initial);
+    }
+
+    // Event listeners for slider changes
+    document.getElementById("initial").addEventListener("input", updateModel);
+    document.getElementById("transmissibility").addEventListener("input", updateModel);
+    document.getElementById("recovery").addEventListener("input", updateModel);
+
+    // Initial plot
+    updateModel();
+
+
+
+    
+  </script>
+</body>
+</html>

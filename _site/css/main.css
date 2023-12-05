@@ -4308,6 +4308,9 @@ body.has-theme-bar #site-wrap {
 /**
  * Text Block
  */
+.text-block {
+  text-align: justify;
+}
 .text-block p,
 .text-block ul,
 .text-block ol,

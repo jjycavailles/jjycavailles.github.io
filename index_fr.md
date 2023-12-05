@@ -7,14 +7,14 @@ sections:
   - type: grid_section
     grid_items:
       - content: >-
-          <iframe style="border:none; width: 450px; height: 720px ; frameborder: 0" scrolling="no" src="../../simulations/predation_home.html" ></iframe>
-      - title: Moutons et Loups
-        subtitle: Comment modéliser mathématiquement les populations de moutons et de loups ?
+          <iframe style="background: white; border:none; width: 700px; height: 900px ; frameborder: 0 ; zoom: 0.8; -moz-transform: scale(0.8); -moz-transform-origin: 0 0;" scrolling="no" src="../../simulations/tree_central_fr.html" ></iframe>
+      - title: Géométrie des arbres
+        subtitle: Modélisation de la géométrie d'un arbre à l'aide de fractales.
         content: >-
-          Ici, je vais vous parler d’un des premiers modeles mathematiques en ecologie des populations, il s’agit du systeme de Lotka Volterra. Pour lancer la simulation, cliquer sur "setup", puis sur "go". 
+          Ici, nous cherchons à reproduire la forme d'un arbre en capitalisant sur la similitude des processus de ramification à différentes échelles. En observant un arbre, nous constatons qu'à partir du tronc, de multiples branches émergent, chacune s'apparentant à un petit tronc donnant naissance à des branches plus petites. Ce principe récursif guide l'opération itérative, créant des branches de plus en plus petites.
 
 
-          On peut distinguer deux populations, les loups et les moutons. Les moutons mangent l'herbe et se reproduisent regulierement. Ils peuvent etre manger par des loups. Les loups ont besoin de manger des moutons pour pouvoir eux-aussi se reproduirent, et si ils ne mengent pas assez, ils finissent par mourir.
+          L'animation permet d'ajuster des paramètres tels que "itérations" pour dessiner plus de branches, "décroissance" pour signifier les différences d'échelle, et "angle" pour spécifier l'angle de ramification.
         actions:
           - label: Plus
             url: /posts/Lotka-Volterra
@@ -38,13 +38,11 @@ sections:
       # Feedback
 
 
-      Ce site est en cours de construction. J'accueille avec grand plaisir tout avis, remarques et conseils sur le site en general.
-      Si vous avez des idées d'articles et de nouvelles simulations, je serai également heureux que vous me donniez des suggestions.
-      
+      <div style="text-align: justify">Ce site est actuellement en construction, et j'apprécie grandement tous les opinions et conseils pour améliorer sa clarté et sa pédagogie. N'hésitez pas à partager vos idées d'articles ou de nouvelles simulations. Je serais enchanté d'interagir avec vous afin de les intégrer au site. Merci d'avance pour votre contribution !</div>      
 
-      Merci d'avance de votre aide !
+      <br/>      
 
-      
+
       <img src="../images/website_cas.png" alt="moi" width="500"/>
 
     content_align: left

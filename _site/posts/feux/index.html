@@ -183,27 +183,63 @@
 			<h1 class="page__title">Feux de forêt</h1>
 		</header>
 		<div class="page__body text-block">
-			<p>Dans cet article on va etudier un modèle simple qui représente la propagation d’un feux de forêt. Ce modèle a ete adapte de l’exemple fourni sur le site officiel de <a href="http://netlogoweb.org/launch#http://netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Fire.nlogo" target="_blank">NetLogo</a>.</p>
+			<p>Dans cet article, nous allons examiner un modèle simple représentant la propagation d’un feu de forêt. 
+Ce modèle a été adapté à partir d’un exemple disponible sur le site officiel de <a href="http://netlogoweb.org/launch#http://netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Fire.nlogo" target="_blank">NetLogo</a>.
+Nous représentons une zone forestière en utilisant des carrés verts pour les arbres et des carrés noirs pour les rochers. L’image ci-dessous illustre un tel morceau de forêt.</p>
 
-<p>On représente un morceau de forêt avec des points verts pour les arbres et des points noirs pour les rochers.
-s
-<img src="/images/feux_init.png" width="300" /></p>
+<p><img src="/images/feux_init.png" width="400" /></p>
 
-<p>Ensuite, un feux est déclenché sur la partie gauche de la foret. Le feux est représenté par des points rouges.
-Le feux peut seulement brûler les arbres (points vert). Ainsi les points noirs empêchent le feux de se propager.</p>
+<p>Notre objectif est de modéliser la propagation d’un feu de forêt. 
+Au départ, nous allumons un feu sur le côté gauche de la forêt, représenté par des carrés rouges. 
+Le feu ne peut bruler que des arbres (carrés verts) et les carrés noirs agissent comme des barrières empêchant le feu de se propager. 
+Lorsqu’un arbre est brûlé, son carré devient brun. 
+L’image ci-dessous illustre un exemple de propagation du feu.</p>
 
-<p><img src="/images/feux_milieu.png" width="300" /></p>
+<p><img src="/images/feux_milieu.png" width="400" /></p>
 
-<p>En fonction de la densité d’arbre (la proportion de points verts) le feux arrive ou non a se propager jusqu’à la droite de la foret.</p>
+<p>Ici, vous pouvez lancer des simulations pour voir par vous-même comment les incendies se propagent. 
+Vous pouvez choisir la densité initiale des arbres (la proportion de carrés verts par rapport au nombre total de carrés). 
+Cliquez ensuite sur “configuration” pour initialiser la simulation et sur “lancer” pour la démarrer.</p>
 
-<p>Pour lancer la simulation, il faut cliquer sur “setup” puis sur “go”.</p>
+<iframe width="1000" height="900" frameborder="0" src="../../simulations/Fires_fr.html"></iframe>
 
-<p>Quelle densité d’arbre allez vous choisir, pour maximiser la production de bois sans risquer qu’un feux brûle toute la foret ? Essaye de relancer la simulation (setup) avec différentes densité (density) pour maximiser la valeur finale de “money”.</p>
+<p>Vous pouvez relancer la simulation avec une densité initiale d’arbres différente. 
+Sélectionnez la densité initiale des arbres et cliquez à nouveau sur “configuration” et sur “lancer”.</p>
 
-<iframe width="1000" height="900" frameborder="0" src="../../simulations/Fires.html"></iframe>
+<p>On constate que selon la densité des arbres (la proportion de carrés verts), les feux peuvent se propager plus ou moins. 
+En effet, pour une faible densité, le feu s’arrête rapidement. 
+A l’inverse, lorsque la densité d’arbres est suffisamment importante, le feu se propage vers la droite de la forêt.</p>
 
-<p>On peut remarquer qu’il existe une densité critique au delà du quel la foret va presque toujours brûler jusqu’à la droite.
-En effet, pour une densité au dessus de 65% la foret jusqu’a la droite. En revanche pour une densité en dessous de 55%, le feux est rapidement arrêté par manque d’arbre cote a cote.</p>
+<p>Maintenant, quelle densité d’arbres choisirez-vous pour maximiser la production de bois sans risquer qu’un incendie ne brûle la majeure partie de la forêt ? 
+Essayez de recommencer la simulation (configuration) avec différentes densités pour maximiser la valeur finale de la “densité d’arbres encore vivants”.</p>
+
+<p>Afin d’estimer la valeur optimale, j’ai répété l’expérience 10 fois pour chaque densité. 
+Sur le graphique ci-dessous, chaque croix représente la valeur finale d’une expérience numérique. 
+La ligne est la moyenne des différentes simulations. 
+Tout d’abord, on constate que la densité d’arbres brûlés augmente avec la densité initiale. 
+Ceci est logique : plus il y a d’arbres présents, plus il y a d’arbres à brûler. 
+Cependant, la relation n’est pas linéaire, c’est-à-dire qu’il ne s’agit pas d’une ligne droite. 
+Pour les faibles densités (inférieures à 50 %), presque aucun arbre ne brûle car le feu ne peut pas se propager. 
+Cependant, à une valeur critique d’environ 0,59, le feu peut se propager à l’ensemble de la forêt et la plupart des arbres brûlent. 
+Ce point a été estimé récemment par <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.85.4104">Newman and Ziff.</a>
+Au-delà de ce point, l’augmentation de la densité des arbres initiaux augmentera la densité des arbres brûlés de manière similaire, puisque le feu se propage presque partout et que la plupart des arbres brûlent.</p>
+
+<p><img src="/images/criticality_burned_fr.png" width="800" /></p>
+
+<p>Rappelons l’objectif de notre modèle : nous voulons savoir quelle est la densité optimale d’arbres pour maximiser le nombre d’arbres sans risquer qu’ils brûlent. 
+Nous avons donc besoin de représenter la densité d’arbres encore vivants en fonction de la densité initiale. 
+Or, nous pouvons estimer cette valeur à environ 55%.</p>
+
+<p><img src="/images/criticality_survivors_fr.png" width="800" /></p>
+
+<p>Vous vous demandez peut-être si ce modèle peut réellement être utilisé pour prévenir les incendies de forêt. 
+Je pense que ce modèle est trop simpliste et repose sur des hypothèses qui ne sont pas établies empiriquement. 
+Par conséquent, connaître la valeur précise du point critique n’est peut-être pas pertinent. 
+Cependant, ce qui est plus intéressant, c’est le résultat qualitatif selon lequel la densité des arbres brûlés et des arbres initiaux n’est pas linéaire. 
+Plus précisément, il existe un point critique où la dynamique change.</p>
+
+<p>Plus important encore, le concept de “paramètre critique” peut être appliqué dans de nombreux domaines différents. 
+La théorie utilisée ici est la <a href="https://fr.wikipedia.org/wiki/Th%C3%A9orie_de_la_percolation">théorie de la percolation</a>, qui est employée dans la science des matériaux, la chimie ou la physique.</p>
 
 
 		</div>

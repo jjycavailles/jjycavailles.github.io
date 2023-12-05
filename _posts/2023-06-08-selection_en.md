@@ -1,9 +1,9 @@
 ---
 layout: page
-title:  "Youtube channels"
+title:  "Scientific resources"
 date:   2022-04-18 21:21:21 +0530
 categories: ["selection"]
-ref: youtube
+ref: selection
 image: ../../images/website.jpg
 description: "Selection of interesting ressources"
 lang: en
@@ -11,101 +11,92 @@ lang: en
 
 ### 3Blue1Brown
 
+This YouTube channel offers visually stunning animated visualizations for a simplified understanding of mathematics, tackling complex problems through changes in perspective.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lG4VkPoG3ko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### Stockholm Resilience Centre TV
 
+The Stockholm Resilience Centre, situated at Stockholm University, stands as a global leader in research, dedicated to unraveling the intricate sustainability challenges confronting humanity.
+The YouTube channel provides a variety of scientific content covering various topics around sustainability.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ByXM47Ri1Kc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Santa Fe Institute
+
+The Santa Fe Institute, a multidisciplinary research institute specializing in the study of complex systems, shares conferences and podcasts on their YouTube channel.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/V5tUM5aLHPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### Podcast
 
-- [complexity](https://complexity.simplecast.com/) by the Santa Fe Institute
+[complexity](https://complexity.simplecast.com/) \\
+This podcast hosted by Michael Garfield at the Santa Fe Institute engages in profound discussions with a network of scientists, mathematicians, philosophers, and artists who are pioneering new frameworks to unravel the deepest mysteries of our universe.
 
 
 
 ### Selection of moocs
 
-- [Game theory](https://www.coursera.org/learn/game-theory-1)
+*Here's a selection of MOOCs in English that I've enjoyed. MOOC stands for "Massive Open Online Course". 
+I see these courses as complementary to the classic courses offered in traditional institutions. 
+Indeed, MOOCs are often introductory in nature and don't go into any great depth. 
+However, thanks to the wide variety of MOOCs available on the net, everyone has the opportunity to explore the subjects that intrigue them.*
 
 
-- [Different moocs about complexity provided by the Santa Fe Institute, such as:](https://www.complexityexplorer.org/courses)
-	+ Introduction to Complexity
-	+ Fractals and Scaling
-	+ Introduction to Dynamical Systems and Chaos
-	+ Nonlinear Dynamics: Mathematical and Computational Approaches
+
+[Game theory](https://www.coursera.org/learn/game-theory-1) \\
+Game theory involves examining mathematical models that represent strategic interactions among - rational or not - agents. 
+Widely applied in various social science fields, it finds extensive use in economics, logic, systems science, and computer science, but also in biology.
+This course provides a solid introduction to the theory.
+
+[complexityexplorer](https://www.complexityexplorer.org/courses) \\
+The Santa Fe Institue provides also several courses and tutorials about complexity related topics, such as: [Introduction to Complexity](https://www.complexityexplorer.org/courses/165-introduction-to-complexity), 
+[Fractals and Scaling](https://www.complexityexplorer.org/courses/169-fractals-and-scaling), 
+[Introduction to Dynamical Systems and Chaos](https://www.complexityexplorer.org/courses/166-introduction-to-dynamical-systems-and-chaos), 
+and [Nonlinear Dynamics: Mathematical and Computational Approaches](https://www.complexityexplorer.org/courses/167-nonlinear-dynamics-mathematical-and-computational-approaches-spring-2023).
 
 
 ### Selection of interactive website
 
-- [Website of Nicky Case](https://ncase.me/) In particular  [the evolution of trust](https://ncase.me/trust/) about Game theory. However, this simulation do not explore all possible solution.
+[ncase](https://ncase.me/) \\
+The website by Nicky Case delves into various concepts through animations. 
+I appreciate the pedagogical approach of this site, especially the ['Evolution of Trust'](https://ncase.me/trust/) regarding Game theory. 
+INCOMPREHENSIBLE, DONNER DES PAPIERS QUI ETUDIENT CA DE FACON RIGOUREUSE
+It's worth noting, though, that the game doesn't cover all possible strategies. It should be viewed as an illustrative example rather than a scientific proof.
 
-- [explorables](https://explorabl.es/)
+<!--
+[explorables](https://explorabl.es/) \\
 
-- [Website of Dirk Brockmann](https://www.complexity-explorables.org/)
+[complexity explained](https://complexityexplained.github.io/) \\
+Manlio De Domenico and Hiroki Sayama, both reasearchers in complex systems 
+** c'est les memes que cellesde dirk brockmann parce que c'est lui qui les a faites, voir dans contributeurs **
 
-- [complexity explained](https://complexityexplained.github.io/) This website is coordinated by Manlio De Domenico and Hiroki Sayama, the last one is a wellknown complexity scientist.
+[myphysicslab](https://www.myphysicslab.com/) \\
 
-- [myphysicslab](https://www.myphysicslab.com/)
+[climate interactive](https://en-roads.climateinteractive.org/scenario.html?v=22.8.0&p50=0.3) \\
 
-- [euclidea](https://www.euclidea.xyz/en/game/packs) Nice and addictive game to reconstruct geometry.
+-->
 
-- [seeing-theory](https://seeing-theory.brown.edu/index.html) To visualize probability theory and statistics.
+[complexity explorables](https://www.complexity-explorables.org/) \\
+According to Dirk Brockmann, the author of this website, complexity-explorables is "A collection of interactive explorable explanations of complex systems in biology, physics, mathematics, social sciences, epidemiology, ecology and other fields...."
 
-- [climate interactive](https://en-roads.climateinteractive.org/scenario.html?v=22.8.0&p50=0.3)
+[euclidea](https://www.euclidea.xyz/en/game/packs) \\
+This game guides you through the step-by-step reconstruction of geometric shapes, beginning with very simple ones. 
+I find its beauty in its elegance. 
+The game serves as an illustration of the deductive construction inherent in mathematics.
 
-
-Selection of website/Blog
-
-
-
-### Philosoph's blog
-
-- [Johannes Jaeger](http://www.johannesjaeger.eu/blog.html)
-
-- [Leonardo Bich](https://leonardobich.wordpress.com/)
-
-- [Xabier Barandiaran](https://xabier.barandiaran.net/)
-
-(https://outonomy.net/) ??
-
-### Academic life
-
-- [phd comics](https://phdcomics.com/)
-
-- [Cal Newport](https://www.calnewport.com/blog/) He essentially gives advice about productivity by being deeply focused.
-
-- A consise and helpful [guide from Jonathan Newton](https://jonathannewton.net/wp-content/uploads/An%20alternative%20guide%20for%20the%20young%20economist.pdf) to reread from time to time.
-
-### Research
-
-*If you want to conduct your own research, here is some website that could be handy.*
-
-- [Google schoolar]
-
-- [Research Gate]
-
-
-
-### Film
-
-A Beautiful Mind
-
-The Imitation Game
-
-The big short
+[seeing-theory](https://seeing-theory.brown.edu/index.html) \\
+Statistics and probability are frequently used and unfortunately often misused in daily life.
+This website provides insightful visualizations to enhance understanding of these theories.
 
 
 
 
 ### To see after:
 
-[Selection of interesting ressources in French](../selection_en)
+If you understand the language of René Descartes, you may want to explore the [selection of scientific resources in French](../selection_fr).
 
 
 

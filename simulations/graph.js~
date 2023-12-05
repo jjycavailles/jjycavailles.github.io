@@ -1,0 +1,40 @@
+// Sample data for the graph
+let initialValue = 50;
+
+const data = {
+  labels: ['January', 'February', 'March', 'April', 'May'],
+  datasets: [{
+    label: 'Sample Data',
+    data: [initialValue, 15, 7, 20, 12],
+    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+    borderColor: 'rgba(75, 192, 192, 1)',
+    borderWidth: 1
+  }]
+};
+
+// Get the canvas element
+const ctx = document.getElementById('myChart').getContext('2d');
+
+// Create a new chart instance
+const myChart = new Chart(ctx, {
+  type: 'bar',
+  data: data
+});
+
+// Get the slider element
+const slider = document.getElementById('valueSlider');
+
+// Get the span to display the selected value
+const selectedValueSpan = document.getElementById('selectedValue');
+
+// Add an input event listener to the slider
+slider.addEventListener('input', function () {
+  // Update the selected value span
+  selectedValueSpan.textContent = this.value;
+
+  // Update the data with the new value
+  myChart.data.datasets[0].data[0] = +this.value;
+  
+  // Update the chart
+  myChart.update();
+});ode

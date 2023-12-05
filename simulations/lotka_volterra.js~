@@ -1,0 +1,75 @@
+// Function to solve the Lotka-Volterra equations
+function solveLotkaVolterra(preyBirthRate, predatorDeathRate) {
+  // Initial conditions
+  let prey = 50;
+  let predator = 5;
+
+  // Parameters
+  const dt = 0.1;  // Time step
+  const numSteps = 300;
+
+  // Array to store results
+  const data = [];
+
+  // Perform numerical integration (Euler's method)
+  for (let i = 0; i < numSteps; i++) {
+    data.push({ time: i * dt, prey, predator });
+    
+    const preyChange = (preyBirthRate * prey - predatorDeathRate * prey * predator) * dt;
+    const predatorChange = (-predatorDeathRate * predator + preyBirthRate * prey * predator) * dt;
+
+    prey += preyChange;
+    predator += predatorChange;
+
+    if (prey < 0) prey = 0;  // Ensure non-negative populations
+    if (predator < 0) predator = 0;
+  }
+
+  return data;
+}
+
+// Plot the solution using D3.js
+function plotLotkaVolterra(data) {
+  const margin = { top: 20, right: 20, bottom: 30, left: 50 };
+  const width = 600 - margin.left - margin.right;
+  const height = 400 - margin.top - margin.bottom;
+
+  const svg = d3.select("#plot")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+  const xScale = d3.scaleLinear().domain([0, d3.max(data, d => d.time)]).range([0, width]);
+  const yScale = d3.scaleLinear().domain([0, d3.max(data, d => Math.max(d.prey, d.predator))]).range([height, 0]);
+
+  const linePrey = d3.line().x(d => xScale(d.time)).y(d => yScale(d.prey));
+  const linePredator = d3.line().x(d => xScale(d.time)).y(d => yScale(d.predator));
+
+  svg.append("path").data([data]).attr("class", "line prey").attr("d", linePrey);
+  svg.append("path").data([data]).attr("class", "line predator").attr("d", linePredator);
+
+  svg.append("g").attr("transform", "translate(0," + height + ")").call(d3.axisBottom(xScale));
+  svg.append("g").call(d3.axisLeft(yScale));
+
+  svg.append("text")
+    .attr("transform", "translate(" + (width / 2) + " ," + (height + margin.top + 10) + ")")
+    .style("text-anchor", "middle")
+    .text("Time");
+
+  svg.append("text")
+    .attr("transform", "rotate(-90)")
+    .attr("y", 0 - margin.left)
+    .attr("x", 0 - (height / 2))
+    .attr("dy", "1em")
+    .style("text-anchor", "middle")
+    .text("Population");
+}
+
+// Handle changes in sliders
+function updateModel() {
+  const preyBirthRate = parseFloat(document.getElementById("preySlider").value);
+  const predatorDeathRate = parseFloat(document.getElementById("predatorSlider").value);
+
+  const modelData = solveLotkaVolterra(preyBirthRate, predatorDeathRate);
+  plot

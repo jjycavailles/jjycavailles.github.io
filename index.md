@@ -6,17 +6,18 @@ sections:
   - type: grid_section
     grid_items:
       - content: >-
-          <iframe style="border:none; width: 450px; height: 720px ; frameborder: 0" scrolling="no" src="../../simulations/predation_home.html" ></iframe>
-      - title: Sheep and Wolves
-        subtitle: How to mathematically model the populations of sheep and wolves?
+          <iframe style="background: white; border:none; width: 700px; height: 900px ; frameborder: 0 ; zoom: 0.8; -moz-transform: scale(0.8); -moz-transform-origin: 0 0;" scrolling="no" src="../../simulations/tree_central_en.html" ></iframe>
+      - title: Tree geometry
+        subtitle: Modeling the geometry of a tree using fractals.
         content: >-
-          Here, I will tell you about one of the first mathematical models in population ecology, it is the Lotka Volterra system. To launch the simulation, click on "setup", then on "go".
+          Here, we aim to replicate a tree's shape by capitalizing on the similarity in branching processes across different scales. By observing a tree, we note that from the trunk, multiple branches emerge, each akin to a small trunk giving rise to smaller branches. This recursive principle guides the iterative operation, creating progressively smaller branches. 
 
 
-          Two populations can be distinguished, wolves and sheep. Sheep eat grass and breed regularly. They can be eaten by wolves. Wolves need to eat sheep to be able to reproduce themselves, and if they don't eat enough, they end up dying.
+          The animation allows adjusting parameters like "iterations" to draw more branches, "decay" to signify scale differences, and "angle" to specify the branching angle.
+
         actions:
-          - label: Plus
-            url: /posts/Lotka-Volterra
+          - label: More
+            url: /posts/fractales_en
             style: primary
     grid_cols: two
     grid_gap_horiz: medium
@@ -37,11 +38,9 @@ sections:
       # Feedback
 
 
-      This site is under construction. I welcome with great pleasure any opinion, remarks on the site in general.
-      If you have ideas for articles and new simulations, I will also be happy to receive suggestions.
+      <div style="text-align: justify">This site is under construction, and I greatly appreciate all opinions, remarks and advice to improve its clarity and pedagogy. Please feel free to share your ideas for articles or new simulations. I'd be delighted to interact with you to integrate them into the site. Thank you in advance for your valuable contribution! </div>
 
-
-      Thank you in advance for your assistance !
+      <br/>
 
 
       <img src="../images/website_cas.png" alt="moi" width="500"/>

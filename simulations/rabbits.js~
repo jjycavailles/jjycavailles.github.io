@@ -1,0 +1,45 @@
+// solve differential equations
+function solvePopulation(initialRabbitsSlider, birthThresholdSlider, grassGrowthRateSlider, grassEnergySlider) {
+	// Parameters
+	const dt = 0.1;  // Time step
+	const numSteps = 1000;
+		
+	const grass = 256*256;
+	const rabbits = initialRabbitsSlider;
+		
+	const R = []; 
+	
+	R.push({grass, rabbits});
+	for (let i = 0; i < numSteps; i++) {
+		const dGrass = (grassGrowthRateSlider - rabbits) * dt;
+		grass += dGrass;
+		const dRabbits = (grass/birthThresholdSlider - grassEnergySlider) * rabbits * dt;
+		rabbits += dRabbits;
+	}
+	
+	return R;
+}
+
+
+
+
+
+// Handle changes in sliders
+function updateModel() {
+  const initialRabbitsSlider = parseFloat(document.getElementById("initialRabbitsSlider").value);
+  const birthThresholdSlider = parseFloat(document.getElementById("birthThresholdSlider").value);
+  const grassGrowthRateSlider = parseFloat(document.getElementById("grassGrowthRateSlider").value);
+  const grassEnergySlider = parseFloat(document.getElementById("grassEnergySlider").value);
+
+  const R = solvePopulation(initialRabbitsSlider, birthThresholdSlider, grassGrowthRateSlider, grassEnergySlider);
+  plotRabbits(R);
+}
+
+// Event listeners for slider changes
+document.getElementById("initialRabbitsSlider").addEventListener("input", updateModel);
+document.getElementById("birthThresholdSlider").addEventListener("input", updateModel);
+document.getElementById("grassGrowthRateSlider").addEventListener("input", updateModel);
+document.getElementById("grassEnergySlider").addEventListener("input", updateModel);
+
+// Initial plot
+updateModel();
