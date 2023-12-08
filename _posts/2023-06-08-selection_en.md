@@ -60,13 +60,15 @@ and [Nonlinear Dynamics: Mathematical and Computational Approaches](https://www.
 
 ### Selection of interactive website
 
+
+<!--
 [ncase](https://ncase.me/) \\
 The website by Nicky Case delves into various concepts through animations. 
 I appreciate the pedagogical approach of this site, especially the ['Evolution of Trust'](https://ncase.me/trust/) regarding Game theory. 
 INCOMPREHENSIBLE, DONNER DES PAPIERS QUI ETUDIENT CA DE FACON RIGOUREUSE
 It's worth noting, though, that the game doesn't cover all possible strategies. It should be viewed as an illustrative example rather than a scientific proof.
 
-<!--
+
 [explorables](https://explorabl.es/) \\
 
 [complexity explained](https://complexityexplained.github.io/) \\

@@ -11,7 +11,7 @@ lang: fr
 
 
 
-*Voici une sélection de ressources pour apprendre la science dans la joie et la bonne humeur. Le contenu est généralement accessible à tous les publics. Vous y trouverez des chaînes YouTube, des podcasts, des livres, des MOOCs (cours en ligne), des sites internet, et même des films.*
+*Voici une sélection de ressources pour apprendre la science dans la joie et la bonne humeur. Le contenu est généralement accessible à tous les publics. Vous y trouverez des chaînes YouTube, des podcasts, des livres, des MOOCs (cours en ligne) et des sites internet.*
 
 ### C'est pas sorcier
 
@@ -33,7 +33,7 @@ Ce qui attire mon attention dans ses travaux, c'est son approche des problèmes,
 
 ### Science4all
 
-C’est le médiateur scientifique qui m’a fait découvrir la [theorie des jeux](https://fr.wikipedia.org/wiki/Th%C3%A9orie_des_jeux).
+C’est le médiateur scientifique qui m’a fait découvrir la [théorie des jeux](https://fr.wikipedia.org/wiki/Th%C3%A9orie_des_jeux).
 Si vous ne comprenez pas tout, ne vous inquiétez pas - moi non plus - l'essentiel est ailleurs : s'initier à de nouveaux sujets et mieux appréhender la mathématique. 
 Il a notamment fait une série de vidéos sur le bayésianisme et une autre sur l'intelligence artificielle.
 

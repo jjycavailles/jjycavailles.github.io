@@ -38,13 +38,6 @@ sections:
       - title: ... à l'aide de modèles mathématiques
         content: >-
           <div style="text-align: justify">Un modèle mathématique est une représentation abstraite d'un système tangible, utilisant des concepts et un langage mathématiques. Il permet d'expliquer le système, d'examiner l'impact des différents composants et de faire des prédictions sur son comportement. <br/>J'utilise diverses formes de modèles, notamment la théorie des jeux et les systèmes dynamiques. En outre, je m'intéresse vivement à l'exploration d'autres types de modèles tels que la théorie de l'information, la théorie des réseaux, la théorie de la décision, la théorie du contrôle et la théorie des catégories.</div>
-        actions:
-          - label: Plus
-            url: /posts/theorie_des_jeux
-            style: primary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
     grid_cols: two
     grid_gap_horiz: large
     grid_gap_vert: large

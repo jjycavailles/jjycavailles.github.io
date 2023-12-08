@@ -39,13 +39,6 @@ sections:
       - title: ... using mathematical models.
         content: >-
           <div style="text-align: justify">A mathematical model serves as an abstract representation of a tangible system, employing mathematical concepts and language. It aids in explaining the system, examining the impacts of various components, and making predictions about its behavior. <br/>I utilize various forms of models, including game theory and dynamical systems. Additionally, I have a keen interest in exploring other types of models such as information theory, network theory, decision theory, control theory, and category theory.</div>
-        actions:
-          - label: Plus
-            url: /posts/theorie_des_jeux
-            style: primary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
     grid_cols: two
     grid_gap_horiz: large
     grid_gap_vert: large
