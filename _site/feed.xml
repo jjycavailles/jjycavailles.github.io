@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+>
+	<channel>
+		<title></title>
+		<description></description>		
+		<sy:updatePeriod>daily</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		<lastBuildDate>Mon, 18 Apr 2022 17:51:21 +0200</lastBuildDate>
+		
+		
+			<item>
+				<title>Ressources scientifiques</title>
+				
+				
+					<description>&lt;p&gt;&lt;em&gt;Voici une sélection de ressources pour apprendre la science dans la joie et la bonne humeur. Le contenu est généralement accessible à tous les publics. Vous y trouverez des chaînes YouTube, des podcasts, des livres, des MOOCs (cours en ligne) et des sites internet.&lt;/em&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 18 Apr 2022 17:51:21 +0200</pubDate>
+				<link>http://localhost:4000/posts/selection_fr/</link>
+				<guid isPermaLink="true">http://localhost:4000/posts/selection_fr/</guid>
+			</item>
+		
+			<item>
+				<title>Scientific resources</title>
+				
+				
+					<description>&lt;h3 id=&quot;3blue1brown&quot;&gt;3Blue1Brown&lt;/h3&gt;
+
+</description>
+				
+				<pubDate>Mon, 18 Apr 2022 17:51:21 +0200</pubDate>
+				<link>http://localhost:4000/posts/selection_en/</link>
+				<guid isPermaLink="true">http://localhost:4000/posts/selection_en/</guid>
+			</item>
+		
+			<item>
+				<title>Géométrie des arbres</title>
+				
+				
+					<description>&lt;p&gt;Nous tenterons ici de reproduire la forme d’un arbre de la manière la plus simple possible. L’astuce consiste à tirer parti de la similitude du processus de ramification à différentes échelles. Je m’explique. Si nous observons un arbre, nous pouvons voir qu’à partir du tronc, plusieurs branches émergent, et à partir de ces branches, plusieurs branches plus petites émergent. D’une certaine manière, chaque branche est comme un petit tronc à partir duquel des branches plus petites peuvent émerger.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 18 Apr 2022 17:51:21 +0200</pubDate>
+				<link>http://localhost:4000/posts/fractales_fr/</link>
+				<guid isPermaLink="true">http://localhost:4000/posts/fractales_fr/</guid>
+			</item>
+		
+			<item>
+				<title>Tree geometry</title>
+				
+				
+					<description>&lt;p&gt;Here, we will attempt to replicate the shape of a tree in the simplest way possible.
+The trick is to leverage the similarity of the branching process at different scales. 
+Let me explain this. 
+If we observe a tree, we can see that from the trunk, several branches emerge, and from these branches, several smaller branches emerge. 
+In a way, each branch is like a small trunk from which smaller branches can emerge.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 18 Apr 2022 17:51:21 +0200</pubDate>
+				<link>http://localhost:4000/posts/fractales_en/</link>
+				<guid isPermaLink="true">http://localhost:4000/posts/fractales_en/</guid>
+			</item>
+		
+			<item>
+				<title>Forest fires</title>
+				
+				
+					<description>&lt;p&gt;In this article, we will examine a simple model representing the spread of a forest fire. 
+This model has been adapted from an example available on the official &lt;a href=&quot;http://netlogoweb.org/launch#http://netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Fire.nlogo&quot; target=&quot;_blank&quot;&gt;NetLogo website&lt;/a&gt;.
+We represent a forest area using green squares for trees and black squares for rocks. 
+The image below illustrates such a forest piece.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 18 Apr 2022 17:51:21 +0200</pubDate>
+				<link>http://localhost:4000/posts/fires/</link>
+				<guid isPermaLink="true">http://localhost:4000/posts/fires/</guid>
+			</item>
+		
+			<item>
+				<title>Feux de forêt</title>
+				
+				
+					<description>&lt;p&gt;Dans cet article, nous allons examiner un modèle simple représentant la propagation d’un feu de forêt. 
+Ce modèle a été adapté à partir d’un exemple disponible sur le site officiel de &lt;a href=&quot;http://netlogoweb.org/launch#http://netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Fire.nlogo&quot; target=&quot;_blank&quot;&gt;NetLogo&lt;/a&gt;.
+Nous représentons une zone forestière en utilisant des carrés verts pour les arbres et des carrés noirs pour les rochers. L’image ci-dessous illustre un tel morceau de forêt.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 18 Apr 2022 17:51:21 +0200</pubDate>
+				<link>http://localhost:4000/posts/feux/</link>
+				<guid isPermaLink="true">http://localhost:4000/posts/feux/</guid>
+			</item>
+		
+			<item>
+				<title>Modèle épidémique</title>
+				
+				
+					<description>&lt;p&gt;Dans ce billet, j’aimerais expliquer pourquoi les mathématiciens aiment utiliser des équations. 
+Pour illustrer cela, nous allons explorer le modèle SIR, couramment utilisé pour simuler les épidémies. 
+Il existe plusieurs façons de formuler un modèle, et nous présentons ici un modèle basé sur des agents. 
+Le code a été adapté à partir d’un &lt;a href=&quot;https://modelingcommons.org/browse/one_model/6224#model_tabs_browse_info&quot;&gt;modèle NetLogo précédent.&lt;/a&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 18 Apr 2022 17:51:21 +0200</pubDate>
+				<link>http://localhost:4000/posts/SIR_fr/</link>
+				<guid isPermaLink="true">http://localhost:4000/posts/SIR_fr/</guid>
+			</item>
+		
+			<item>
+				<title>Epidemic model</title>
+				
+				
+					<description>&lt;p&gt;In this post, I would like to explain why mathematicians like using equations. 
+To illustrate this, we will explore the SIR model, commonly employed to simulate epidemics. 
+There are various ways to formulate a model, and here we present an agent-based model. 
+The code has been adapted from a &lt;a href=&quot;https://modelingcommons.org/browse/one_model/6224#model_tabs_browse_info&quot;&gt;previous NetLogo model.&lt;/a&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 18 Apr 2022 17:51:21 +0200</pubDate>
+				<link>http://localhost:4000/posts/SIR_en/</link>
+				<guid isPermaLink="true">http://localhost:4000/posts/SIR_en/</guid>
+			</item>
+		
+	</channel>
+</rss>
