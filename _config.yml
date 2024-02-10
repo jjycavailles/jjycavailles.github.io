@@ -41,11 +41,11 @@ header:
 footer:
   has_social: true
   social_links:
-    - label: Twitter
-      url: 'https://twitter.com/CavaillesJerome'
+    - label: Github
+      url: 'https://github.com/jjycavailles/'
       style: link
       has_icon: true
-      icon: twitter
+      icon: github
       icon_position: center
       new_window: true
     - label: LinkedIn
@@ -55,11 +55,18 @@ footer:
       icon: linkedin
       icon_position: center
       new_window: true
-    - label: Github
-      url: 'https://github.com/jjycavailles/'
+    - label: Twitter
+      url: 'https://twitter.com/CavaillesJerome'
       style: link
       has_icon: true
-      icon: github
+      icon: twitter
+      icon_position: center
+      new_window: true
+    - label: RSS
+      url: 'https://interactionintegration.org/feed'
+      style: link
+      has_icon: true
+      icon: rss
       icon_position: center
       new_window: true
 sass:
