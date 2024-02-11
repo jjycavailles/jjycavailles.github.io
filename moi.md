@@ -10,6 +10,7 @@ sections:
       - title: 
         content: >-
           <div style="text-align: justify">Je suis un mathématicien en doctorat en biologie/écologie. Ma recherche se concentre sur le développement de modèles mathématiques pour comprendre la structure des écosystèmes face aux changements environnementaux. <br/>Mon objectif ultime est de contribuer à une théorie transdisciplinaire des systèmes dans des environnements changeants. Mon approche consiste à résoudre des problèmes spécifiques dans des domaines comme l'écologie, idéalement avec des applications pratiques pour la vie quotidienne. Pas à pas, j'espère assimiler différents concepts, tels que les perturbations ou l'autorégulation, dans un cadre mathématique plus général.</div>
+          <br/>Mots clés : modélisation mathématique, écologie théorique, système complexe, théorie des jeux, résilience
         actions:
           - label: jjycavailles@gmail.com
             url: mailto:jjycavailles@gmail.com

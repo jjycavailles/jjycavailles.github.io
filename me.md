@@ -10,7 +10,7 @@ sections:
       - title: 
         content: >-
           <div style="text-align: justify">I am a mathematician pursuing a Ph.D. in biology/ecology. I develop mathematical models to understand how ecosystems are structured to cope with environmental changes. <br/> My ultimate goal is to contribute to a transdisciplinary theory of systems in changing environments. My approach involves solving specific puzzles within relevant fields like ecology, ideally with practical applications for everyday life. Step by step, I aim to assimilate different concepts, such as disturbances or self-regulations, into a more general formal framework.</div>
-
+          <br/>Keywords: mathematical modeling, theoretical ecology, complex system, game theory, resilience
         actions:
           - label: jjycavailles@gmail.com
             url: mailto:jjycavailles@gmail.com
