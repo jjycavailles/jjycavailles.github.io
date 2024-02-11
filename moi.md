@@ -46,6 +46,19 @@ sections:
     background_image_repeat: repeat
     background_image_size: contain
     background_image_opacity: 8
+  - type: features_section
+    title: Publication
+    features:
+      - content: >-
+          Jerome Cavailles, Christoph Kuzmics, and Martin Grube. <a href="https://www.biorxiv.org/content/10.1101/2023.01.26.525694v1.full.pdf">"Heterogeneous responsiveness to environmental stimuli."</a> bioRxiv (2023): 2023-01.
+    grid_cols: one
+    grid_gap_horiz: large
+    grid_gap_vert: large
+    align: center
+    background_color: primary
+    background_image_repeat: repeat
+    background_image_size: contain
+    background_image_opacity: 8
   - type: grid_section
     title: Stages
     subtitle: Mes précédentes expériences professionnelles
@@ -69,12 +82,12 @@ sections:
         actions:
           - label: WeatherForce
             url: https://weatherforce.org/
-            style: primary
+            style: secondary
     grid_cols: two
     grid_gap_horiz: large
     grid_gap_vert: large
     align: center
-    background_color: primary
+    background_color: secondary
     background_image_repeat: repeat
     background_image_size: contain
     background_image_opacity: 8
@@ -95,7 +108,7 @@ sections:
     grid_gap_horiz: large
     grid_gap_vert: large
     align: center
-    background_color: secondary
+    background_color: primary
     background_image_repeat: repeat
     background_image_size: contain
     background_image_opacity: 8
