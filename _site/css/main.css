@@ -4155,10 +4155,10 @@ th {
 
 .menu__item {
   color: #2c343c;
-  line-height: 1.25;
+  line-height: 2.25;
 }
 .menu__item a {
-  font-size: 0.88889em;
+  font-size: 1.5em;
 }
 .menu__item a:not(.btn) {
   color: inherit;
