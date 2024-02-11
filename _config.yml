@@ -20,10 +20,10 @@ header:
           - label: Home
             url: ./
             style: link
-          - label: Blog
+          - label: Blog     
             url: ./blog
             style: link
-          - label: Me
+          - label: Me    
             url: ./me
             style: link
       fr:
