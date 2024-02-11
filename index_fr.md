@@ -17,7 +17,7 @@ sections:
           L'animation permet d'ajuster des paramètres tels que "itérations" pour dessiner plus de branches, "décroissance" pour signifier les différences d'échelle, et "angle" pour spécifier l'angle de ramification.
         actions:
           - label: Plus
-            url: /posts/Lotka-Volterra
+            url: /posts/fractales_fr
             style: primary
     grid_cols: two
     grid_gap_horiz: medium

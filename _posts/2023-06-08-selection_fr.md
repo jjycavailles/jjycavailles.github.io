@@ -218,7 +218,7 @@ Ce site propose un ensemble d'articles sur les mathématiques liées à des ques
 L'objectif de ce site est de rendre la recherche mathématique, notamment française, ainsi que la profession de mathématicien, accessibles au grand public en dehors de la communauté scientifique.
 Si tous les articles sont écrits par des mathématiciens, ils ne sont pas rédigés pour des mathématiciens, mais bien pour tout le monde.
 
-[cafe des sciences](https://www.cafe-sciences.org/) \\
+[café des sciences](https://www.cafe-sciences.org/) \\
 Il s'agit de l'organisation française qui regroupe la plupart des vulgarisateurs scientifiques. 
 Si vous souhaitez découvrir de nouvelles sources de médiation scientifique, telles que des blogs ou des chaînes YouTube, faites un tour sur leur site.
 
