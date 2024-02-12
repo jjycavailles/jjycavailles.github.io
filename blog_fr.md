@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog
+title:
 lang: fr
 ref: blog
 subtitle: Differents articles
@@ -8,7 +8,11 @@ subtitle: Differents articles
 
 
 
+
 <!-- Posts Index
+
+mettre le layout en body pour elargir !
+
 ================================================== -->
 <section class="recent-posts">
 	

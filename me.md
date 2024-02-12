@@ -27,7 +27,7 @@ sections:
     background_image_opacity: 8
   - type: grid_section
     title: Research
-    subtitle: What I do as a PhD
+    subtitle: What I do as a PhD student
     grid_items:
       - title: I study ecology...
         content: >-

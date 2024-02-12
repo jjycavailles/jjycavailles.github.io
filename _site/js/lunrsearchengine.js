@@ -7,7 +7,7 @@ var documents = [{
     }, {
     "id": 1,
     "url": "http://localhost:4000/blog_fr/",
-    "title": "Blog",
+    "title": "",
     "body": "																	                                                                                         Ressources scientifiques      :       Sélection de livres, moosc, chaines youtubes               						selection						                18 Apr 2022        		            															 				     																										                                                                                         Géométrie des arbres      :       Modélisation de la géométrie d'un arbre à l'aide de fractales.               						simulation						                18 Apr 2022        		            																		 				     																										                                                                                         Feux de forêt      :       Modélisation d'un feux de forêt               						simulation						                18 Apr 2022        		            																																			                                                                                         Modèle épidémique      :       Un guide interactif qui montre l'importance des équations différentielles.               						simulation						                18 Apr 2022        		            															 				     												  "
     }, {
     "id": 2,
