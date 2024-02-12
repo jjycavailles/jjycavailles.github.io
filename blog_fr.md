@@ -1,9 +1,39 @@
 ---
-layout: body
+layout: page
 title:
 lang: fr
 ref: blog
 subtitle: Differents articles
+sections:
+  - type: grid_section
+    title: Articles de blog
+    langue: fr
+    grid_items_reverse:
+      - title: Modèle épidémique
+        subtitle: Un guide interactif qui montre l'importance des équations différentielles.
+        content: >- 
+          <a href="/posts/SIR_fr"><img src="../images/virus.png" alt="epidemy"></a>
+      - title: Feux de forêt
+        subtitle: Modélisation d'un feux de forêt
+        content: >- 
+          <a href="/posts/feux"><img src="../images/feux_milieu.png" alt="forest fire"></a>
+      - title: Ressources scientifiques
+        subtitle: Sélection de livres, moocs, chaines youtubes
+        content: >- 
+          <a href="/posts/selection_fr"><img src="../images/website.jpg" alt="ressources"></a>
+      - title: Géométrie des arbres
+        subtitle: Modélisation de la géométrie d'un arbre à l'aide de fractales.
+        content: >- 
+          <a href="/posts/fractales_fr"><img src="../images/Fractal_canopy.svg.png" alt="tree fractal"></a>
+    grid_cols: three
+    grid_gap_horiz: small
+    grid_gap_vert: large
+    align: center
+    background_color: secondary
+    background_image_repeat: repeat
+    background_image_size: contain
+    background_image_opacity: 8
+layout: advanced
 ---
 
 

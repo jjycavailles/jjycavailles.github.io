@@ -2,8 +2,8 @@
 var documents = [{
     "id": 0,
     "url": "http://localhost:4000/blog/",
-    "title": "",
-    "body": "																	                                                                                         Scientific resources      :       Selection of interesting ressources               						selection						                18 Apr 2022        		            										 		     																					                                                                                         Tree geometry      :       Modeling the geometry of a tree using fractals.               						simulation						                18 Apr 2022        		            												 		     																                                                                                         Forest fires      :       How to optimize wood production without risking a wildfire?               						simulation						                18 Apr 2022        		            																																                                                                                         Epidemic model      :       An interactive guide showcasing the importance of differential equations.               						simulation						                18 Apr 2022        		            										 		     							  "
+    "title": "Blog",
+    "body": ""
     }, {
     "id": 1,
     "url": "http://localhost:4000/blog_fr/",
