@@ -34,6 +34,7 @@
 	</div>
 	{% endif %}
 
+
 	{% assign grid_items_is_not_empty = section.grid_items | is_not_empty %}
 	{% if grid_items_is_not_empty %}
 	<div class="container">
@@ -46,6 +47,20 @@
 	</div>
 	{% endif %}
 
+
+	{% assign grid_items_reverse_is_not_empty = section.grid_items_reverse | is_not_empty %}
+	{% if grid_items_reverse_is_not_empty %}
+	<div class="container">
+		<div class="grid{% if grid_gap_x == 'small' %} grid-gap-small{% endif %}{% if grid_gap_x == 'large' %} grid-gap-large{% endif %}">
+			{% for item in section.grid_items_reverse %}
+				
+				{% include grid_item_reverse.html section=section item=item %}
+			{% endfor %}
+		</div>
+	</div>
+	{% endif %}
+
+
 	{% assign actions_is_not_empty = section.actions | is_not_empty %}
 	{% if actions_is_not_empty %}
 	<div class="container container--medium{% if grid_gap_y != 'large' %} mt-4{% endif %}{% if grid_gap_y == 'large' %} mt-3{% endif %}">
@@ -55,5 +70,7 @@
 		</div>
 	</div>
 	{% endif %}
+
+
 
 </section>

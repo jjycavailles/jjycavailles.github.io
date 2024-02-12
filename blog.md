@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: body
 title: 
 lang: en
 ref: blog
