@@ -9,7 +9,7 @@ sections:
     grid_items:
       - title: 
         content: >-
-          <div style="text-align: justify">Je suis un mathématicien en doctorat en biologie/écologie. Ma recherche se concentre sur le développement de modèles mathématiques pour comprendre la structure des écosystèmes face aux changements environnementaux. <br/>Mon objectif ultime est de contribuer à une théorie transdisciplinaire des systèmes dans des environnements changeants. Mon approche consiste à résoudre des problèmes spécifiques dans des domaines comme l'écologie, idéalement avec des applications pratiques pour la vie quotidienne. Pas à pas, j'espère assimiler différents concepts, tels que la résilience ou l'autorégulation, dans un cadre mathématique plus général.</div>
+          <div style="text-align: justify">Je suis un mathématicien en doctorat en biologie/écologie. Ma recherche se concentre sur le développement de modèles mathématiques pour comprendre la structure des écosystèmes face aux changements environnementaux. Mon objectif ultime est de contribuer à une théorie transdisciplinaire des systèmes dans des environnements changeants. Ma question principale est la suivante : quelles stratégies les organismes emploient-ils pour prospérer dans des environnements dynamiques ? Mon approche consiste à modeliser des problèmes spécifiques dans des domaines comme l'écologie, idéalement avec des applications pratiques pour la vie quotidienne. Pas à pas, j'espère assimiler différents concepts, tels que la résilience ou l'autorégulation, dans un cadre mathématique plus général.</div>
           <br/>Mots clés : modélisation mathématique, écologie théorique, système complexe, théorie des jeux, résilience
         actions:
           - label: jjycavailles@gmail.com
@@ -48,10 +48,22 @@ sections:
     background_image_size: contain
     background_image_opacity: 8
   - type: features_section
-    title: Publication
+    title: Prépublications
+    subtitle: Articles scientifiques que j'ai co-écrits (en anglais)
     features:
       - content: >-
-          Jerome Cavailles, Christoph Kuzmics, and Martin Grube. <a href="https://www.biorxiv.org/content/10.1101/2023.01.26.525694v1.full.pdf">"Heterogeneous responsiveness to environmental stimuli."</a> bioRxiv (2023): 2023-01.
+          <div style="text-align: justify">Jerome Cavailles, Christoph Kuzmics, et Martin Grube. <a href="https://www.biorxiv.org/content/10.1101/2023.01.26.525694v1.full.pdf">"Réactivité hétérogène aux stimuli environnementaux."</a> bioRxiv (2023): 2023-01.
+          <br/>
+          <br/>
+          <div style="margin-left: 10%; max-width: 80%">Résumé : Les individus d’une espèce font face à la variabilité environnementale grâce à des ajustements comportementaux entraînés par la réactivité des individus aux stimuli environnementaux. Trois observations empiriques majeures ont été faites pour de nombreuses espèces animales : La coexistence de différents degrés de réactivité au sein d'une même espèce ; la cohérence du degré de réactivité d’un individu au fil du temps ; et la corrélation du degré de réactivité d’un individu selon les contextes. Reprenant les éléments clés des approches existantes, nous fournissons une explication unificatrice pour les trois observations, en identifiant une stratégie évolutive unique et stable d'un jeu correctement défini dans un environnement stochastique qui possède les trois caractéristiques. La coexistence s’explique par une forme de dépendance négative en fréquence. La cohérence et la corrélation s'expliquent par des différences potentiellement petites et individuelles entre les états des animaux et les avantages différentiels qui en résultent. Nos résultats nous permettent d’identifier une variété d’implications testables.</div>
+          <br/>
+          <br/>
+          <br/>
+          Jerome Cavailles, Christoph Kuzmics, et Martin Grube. <a href="https://www.biorxiv.org/content/biorxiv/early/2024/04/11/2024.04.10.588659.full.pdf">"Blanchiment résultant de l’optimisation des coraux dans un environnement changeant."</a> bioRxiv (2024): 2024-04.
+          <br/>
+          <br/>
+          <div style="margin-left: 10%; max-width: 80%">Résumé : Les coraux fournissent d'importants services écosystémiques en tant que structures côtières protectrices et habitats pour la biodiversité côtière. Les coraux dépendent de leur relation symbiotique avec les algues, relation menacée par la hausse des températures. Pour mieux comprendre la nature et la résilience de cette relation, nous proposons un modèle dans lequel deux clades d’algues (l’un efficace, l’autre résilient) se font concurrence pour l’azote que le corail « choisit » de fournir dans un environnement changeant. Ce modèle est cohérent avec un large éventail d'observations empiriques sur les épisodes de blanchissement observés (lorsque les populations d'algues diminuent considérablement) et sur la composition d'algale observée au fil du temps, en fonction des conditions environnementales.</div>
+          </div>
     grid_cols: one
     grid_gap_horiz: large
     grid_gap_vert: large

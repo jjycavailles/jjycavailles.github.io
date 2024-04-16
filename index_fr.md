@@ -5,6 +5,26 @@ ref: index
 title: "Accueil"
 sections:
   - type: grid_section
+    title: Bonjour, je suis Jérôme Cavaillès !
+    grid_items:
+      - title: 
+        content: >-
+          <div style="text-align: justify">Je suis un mathématicien en doctorat en biologie/écologie. Ma recherche se concentre sur le développement de modèles mathématiques pour comprendre la structure des écosystèmes face aux changements environnementaux. Mon objectif ultime est de contribuer à une théorie transdisciplinaire des systèmes dans des environnements changeants. Ma question principale est la suivante : quelles stratégies les organismes emploient-ils pour prospérer dans des environnements dynamiques ? Mon approche consiste à modeliser des problèmes spécifiques dans des domaines comme l'écologie, idéalement avec des applications pratiques pour la vie quotidienne. Pas à pas, j'espère assimiler différents concepts, tels que la résilience ou l'autorégulation, dans un cadre mathématique plus général.</div>
+        actions:
+          - label: A propos de moi
+            url: ../moi
+            style: primary
+      - content: >-
+          <img src="../images/moi.jpg" alt="moi" width="400"/>
+    grid_cols: two
+    grid_gap_horiz: large
+    grid_gap_vert: large
+    align: center
+    background_color: secondary
+    background_image_repeat: repeat
+    background_image_size: contain
+    background_image_opacity: 8
+  - type: grid_section
     grid_items:
       - content: >-
           <iframe style="background: white; border:none; width: 700px; height: 900px ; frameborder: 0 ; zoom: 0.8; -moz-transform: scale(0.8); -moz-transform-origin: 0 0;" scrolling="no" src="../../simulations/tree_central_fr.html" ></iframe>

@@ -4,23 +4,38 @@ ref: index
 title: "Home"
 sections:
   - type: grid_section
+    title: Hi, I am Jérôme Cavaillès!
+    grid_items:
+      - title:
+        content: >-
+          <div style="text-align: justify">I am a mathematician pursuing a Ph.D. in biology/ecology. I develop mathematical models to understand how ecosystems are structured to cope with environmental changes. My ultimate goal is to contribute to a transdisciplinary theory that elucidates the behavior of organisms in changing environments. My main inquiry is: What strategies do organisms employ to thrive in dynamic environments? My approach involves modeling specific puzzles within relevant fields like ecology, ideally with practical applications for everyday life. Step by step, I aim to assimilate different concepts, such as disturbances or self-regulations, into a more general formal framework.</div>
+        actions:
+          - label: About me
+            url: ../me
+            style: primary
+      - content: >-
+          <img src="../images/moi.jpg" alt="moi" width="400"/>
+    grid_cols: two
+    grid_gap_horiz: large
+    grid_gap_vert: large
+    align: center
+    background_color: secondary
+    background_image_repeat: repeat
+    background_image_size: contain
+    background_image_opacity: 8
+  - type: grid_section
     grid_items:
       - content: >-
           <iframe style="background: white; border:none; width: 700px; height: 900px ; frameborder: 0 ; zoom: 0.8; -moz-transform: scale(0.8); -moz-transform-origin: 0 0;" scrolling="no" src="../../simulations/tree_central_en.html" ></iframe>
       - title: Tree geometry
-        subtitle: Modeling the geometry of a tree using fractals.
         content: >-
-          Here, we aim to replicate a tree's shape by capitalizing on the similarity in branching processes across different scales. By observing a tree, we note that from the trunk, multiple branches emerge, each akin to a small trunk giving rise to smaller branches. This recursive principle guides the iterative operation, creating progressively smaller branches. 
-
-
-          The animation allows adjusting parameters like "iterations" to draw more branches, "decay" to signify scale differences, and "angle" to specify the branching angle.
-
+          <div style="text-align: justify">On this blog, I want to share different concepts about mathematical modeling, ecology theory and complex system. For example, on the right, we aim to replicate a tree's shape by capitalizing on the similarity in branching processes across different scales. By observing a tree, we note that from the trunk, multiple branches emerge, each akin to a small trunk giving rise to smaller branches. This recursive principle guides the iterative operation, creating progressively smaller branches.<br/><br/>The animation allows adjusting parameters like "iterations" to draw more branches, "decay" to signify scale differences, and "angle" to specify the branching angle.</div>
         actions:
           - label: More
             url: /posts/fractales_en
-            style: primary
+            style: primary   
     grid_cols: two
-    grid_gap_horiz: medium
+    grid_gap_horiz: large
     grid_gap_vert: large
     align: center
     background_color: primary

@@ -9,7 +9,7 @@ sections:
     grid_items:
       - title: 
         content: >-
-          <div style="text-align: justify">I am a mathematician pursuing a Ph.D. in biology/ecology. I develop mathematical models to understand how ecosystems are structured to cope with environmental changes. <br/> My ultimate goal is to contribute to a transdisciplinary theory of systems in changing environments. My approach involves solving specific puzzles within relevant fields like ecology, ideally with practical applications for everyday life. Step by step, I aim to assimilate different concepts, such as disturbances or self-regulations, into a more general formal framework.</div>
+          <div style="text-align: justify">I am a mathematician pursuing a Ph.D. in biology/ecology. I develop mathematical models to understand how ecosystems are structured to cope with environmental changes. My ultimate goal is to contribute to a transdisciplinary theory that elucidates the behavior of organisms in changing environments. My main inquiry is: What strategies do organisms employ to thrive in dynamic environments? My approach involves modeling specific puzzles within relevant fields like ecology, ideally with practical applications for everyday life. Step by step, I aim to assimilate different concepts, such as disturbances or self-regulations, into a more general formal framework.</div>
           <br/>Keywords: mathematical modeling, theoretical ecology, complex system, game theory, resilience
         actions:
           - label: jjycavailles@gmail.com
@@ -48,10 +48,22 @@ sections:
     background_image_size: contain
     background_image_opacity: 8
   - type: features_section
-    title: Publication
+    title: Prepublications
+    subtitle: Scientific articles that I have co-authored
     features:
       - content: >-
-          Jerome Cavailles, Christoph Kuzmics, and Martin Grube. <a href="https://www.biorxiv.org/content/10.1101/2023.01.26.525694v1.full.pdf">"Heterogeneous responsiveness to environmental stimuli."</a> bioRxiv (2023): 2023-01.
+          <div style="text-align: justify">Jerome Cavailles, Christoph Kuzmics, and Martin Grube. <a href="https://www.biorxiv.org/content/10.1101/2023.01.26.525694v1.full.pdf">"Heterogeneous responsiveness to environmental stimuli."</a> bioRxiv (2023): 2023-01.
+          <br/>
+          <br/>
+          <div style="margin-left: 10%; max-width: 80%">Abstract: Individuals of a species cope with environmental variability through behavioral adjustments driven by individuals’ responsiveness to environmental stimuli. Three key empirical observations have been made for many animal species: The coexistence of different degrees of responsiveness within one species; the consistency of an individual’s degree of responsiveness across time; and the correlation of an individual’s degree of responsiveness across contexts. Taking up key elements of existing approaches, we provide one unifying explanation for all three observations, by identifying a unique evolutionarily stable strategy of an appropriately defined game within a stochastic environment that has all three features. Coexistence is explained by a form of negative frequency dependence. Consistency and correlation is explained through potentially small, individual, differences of states animals have and the resulting differential advantages they can get from it. Our results allow us to identify a variety of testable implications.</div>
+          <br/>
+          <br/>
+          <br/>
+          Jerome Cavailles, Christoph Kuzmics, and Martin Grube. <a href="https://www.biorxiv.org/content/biorxiv/early/2024/04/11/2024.04.10.588659.full.pdf">"Bleaching as a result of coral optimization in a changing environment."</a> bioRxiv (2024): 2024-04.
+          <br/>
+          <br/>
+          <div style="margin-left: 10%; max-width: 80%">Abstract: Corals provide important ecosystem services as protective coastal structures and as habitats for coastal biodiversity. Corals depend on their symbiotic relationship with algae, a relationship under threat from rising temperatures. To better understand the nature and resilience of this relationship, we provide a model in which two clades of algae (one efficient, the other resilient) compete over the nitrogen that the coral “chooses” to provide in a changing environment. This model is consistent with a wide range of empirical observations about observed bleaching episodes (when algal populations drop dramatically) and the observed algal composition over time, depending on environmental conditions.</div>
+          </div>
     grid_cols: one
     grid_gap_horiz: large
     grid_gap_vert: large
