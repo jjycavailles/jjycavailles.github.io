@@ -9,7 +9,7 @@ sections:
     grid_items:
       - title: 
         content: >-
-          <div style="text-align: justify">Je suis un mathématicien en doctorat en biologie/écologie. Ma recherche se concentre sur le développement de modèles mathématiques pour comprendre la structure des écosystèmes face aux changements environnementaux. Mon objectif ultime est de contribuer à une théorie transdisciplinaire des systèmes dans des environnements changeants. Ma question principale est la suivante : quelles stratégies les organismes emploient-ils pour prospérer dans des environnements dynamiques ? Mon approche consiste à modeliser des problèmes spécifiques dans des domaines comme l'écologie, idéalement avec des applications pratiques pour la vie quotidienne. Pas à pas, j'espère assimiler différents concepts, tels que la résilience ou l'autorégulation, dans un cadre mathématique plus général.</div>
+          <div style="text-align: justify">Je suis mathématicien de formation et je suis actuellement en postdoctorat en biologie/écologie. Ma recherche se concentre sur le développement de modèles mathématiques pour comprendre la structure des écosystèmes face aux changements environnementaux. Mon objectif ultime est de contribuer à une théorie transdisciplinaire des systèmes dans des environnements changeants. Ma question principale est la suivante : quelles stratégies les organismes emploient-ils pour prospérer dans des environnements dynamiques ? Mon approche consiste à modeliser des problèmes spécifiques dans des domaines comme l'écologie, idéalement avec des applications pratiques pour la vie quotidienne. Pas à pas, j'espère assimiler différents concepts, tels que la résilience ou l'autorégulation, dans un cadre mathématique plus général.</div>
           <br/>Mots clés : modélisation mathématique, écologie théorique, système complexe, théorie des jeux, résilience
         actions:
           - label: jjycavailles@gmail.com
@@ -27,7 +27,7 @@ sections:
     background_image_opacity: 8
   - type: grid_section
     title: Recherche
-    subtitle: Ce que je fais en thèse
+    subtitle: Ce que je fais
     grid_items:
       - title: J'étudie l'écologie ...
         content: >-
@@ -38,7 +38,7 @@ sections:
           <img src="../images/Fractal_canopy.svg.png" alt="chess" width="300" align="right"> 
       - title: ... à l'aide de modèles mathématiques
         content: >-
-          <div style="text-align: justify">Un modèle mathématique est une représentation abstraite d'un système tangible, utilisant des concepts et un langage mathématiques. Il permet d'expliquer le système, d'examiner l'impact des différents composants et de faire des prédictions sur son comportement. <br/>J'utilise diverses formes de modèles, notamment la théorie des jeux et les systèmes dynamiques. En outre, je m'intéresse vivement à l'exploration d'autres types de modèles tels que la théorie de l'information, la théorie des réseaux, la théorie de la décision, la théorie du contrôle et la théorie des catégories.</div>
+          <div style="text-align: justify">Un modèle mathématique est une représentation abstraite d'un système tangible, utilisant des concepts et un langage mathématiques. Il permet d'expliquer le système, d'examiner l'impact des différents composants et de faire des prédictions sur son comportement. <br/>J'utilise diverses formes de modèles, notamment la théorie des jeux et les systèmes dynamiques. Je m'intéresse aussi à l'exploration d'autres types de modèles tels que la théorie de l'information, la théorie des réseaux, la théorie de la décision, la théorie du contrôle et la théorie des catégories.</div>
     grid_cols: two
     grid_gap_horiz: large
     grid_gap_vert: large
@@ -62,7 +62,7 @@ sections:
           Jerome Cavailles, Christoph Kuzmics, et Martin Grube. <a href="https://www.biorxiv.org/content/biorxiv/early/2024/04/11/2024.04.10.588659.full.pdf">"Blanchiment résultant de l’optimisation des coraux dans un environnement changeant."</a> bioRxiv (2024): 2024-04.
           <br/>
           <br/>
-          <div style="margin-left: 10%; max-width: 80%">Résumé : Les coraux fournissent d'importants services écosystémiques en tant que structures côtières protectrices et habitats pour la biodiversité côtière. Les coraux dépendent de leur relation symbiotique avec les algues, relation menacée par la hausse des températures. Pour mieux comprendre la nature et la résilience de cette relation, nous proposons un modèle dans lequel deux clades d’algues (l’un efficace, l’autre résilient) se font concurrence pour l’azote que le corail « choisit » de fournir dans un environnement changeant. Ce modèle est cohérent avec un large éventail d'observations empiriques sur les épisodes de blanchissement observés (lorsque les populations d'algues diminuent considérablement) et sur la composition d'algale observée au fil du temps, en fonction des conditions environnementales.</div>
+          <div style="margin-left: 10%; max-width: 80%">Résumé : Les coraux fournissent d'importants services écosystémiques en tant que structures côtières protectrices et habitats pour la biodiversité côtière. Les coraux dépendent de leur relation symbiotique avec les algues, relation menacée par la hausse des températures. Pour mieux comprendre la nature et la résilience de cette relation, nous proposons un modèle dans lequel deux algues (l’un efficace, l’autre résilient) se font concurrence pour l’azote que le corail « choisit » de fournir dans un environnement changeant. Ce modèle est cohérent avec un large éventail d'observations empiriques sur les épisodes de blanchissement observés (lorsque les populations d'algues diminuent considérablement) et sur la composition d'algale observée au fil du temps, en fonction des conditions environnementales.</div>
           </div>
     grid_cols: one
     grid_gap_horiz: large

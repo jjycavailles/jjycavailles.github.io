@@ -8,7 +8,7 @@ sections:
     grid_items:
       - title:
         content: >-
-          <div style="text-align: justify">I am a mathematician pursuing a Ph.D. in biology/ecology. I develop mathematical models to understand how ecosystems are structured to cope with environmental changes. My ultimate goal is to contribute to a transdisciplinary theory that elucidates the behavior of organisms in changing environments. My main inquiry is: What strategies do organisms employ to thrive in dynamic environments? My approach involves modeling specific puzzles within relevant fields like ecology, ideally with practical applications for everyday life. Step by step, I aim to assimilate different concepts, such as disturbances or self-regulations, into a more general formal framework.</div>
+          <div style="text-align: justify">I am a mathematician by training currently doing a postdoc in biology/ecology. I develop mathematical models to understand how ecosystems are structured to cope with environmental changes. My ultimate goal is to contribute to a transdisciplinary theory that elucidates the behavior of organisms in changing environments. My main inquiry is: What strategies do organisms employ to thrive in dynamic environments? My approach involves modeling specific puzzles within relevant fields like ecology, ideally with practical applications for everyday life. Step by step, I aim to assimilate different concepts, such as disturbances or self-regulations, into a more general formal framework.</div>
         actions:
           - label: About me
             url: ../me

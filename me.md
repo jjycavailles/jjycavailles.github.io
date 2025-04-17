@@ -9,7 +9,7 @@ sections:
     grid_items:
       - title: 
         content: >-
-          <div style="text-align: justify">I am a mathematician pursuing a Ph.D. in biology/ecology. I develop mathematical models to understand how ecosystems are structured to cope with environmental changes. My ultimate goal is to contribute to a transdisciplinary theory that elucidates the behavior of organisms in changing environments. My main inquiry is: What strategies do organisms employ to thrive in dynamic environments? My approach involves modeling specific puzzles within relevant fields like ecology, ideally with practical applications for everyday life. Step by step, I aim to assimilate different concepts, such as disturbances or self-regulations, into a more general formal framework.</div>
+          <div style="text-align: justify">I am a mathematician by training currently doing a postdoc in biology/ecology. I develop mathematical models to understand how ecosystems are structured to cope with environmental changes. My ultimate goal is to contribute to a transdisciplinary theory that elucidates the behavior of organisms in changing environments. My main inquiry is: What strategies do organisms employ to thrive in dynamic environments? My approach involves modeling specific puzzles within relevant fields like ecology, ideally with practical applications for everyday life. Step by step, I aim to assimilate different concepts, such as disturbances or self-regulations, into a more general formal framework.</div>
           <br/>Keywords: mathematical modeling, theoretical ecology, complex system, game theory, resilience
         actions:
           - label: jjycavailles@gmail.com
@@ -27,7 +27,7 @@ sections:
     background_image_opacity: 8
   - type: grid_section
     title: Research
-    subtitle: What I do as a PhD student
+    subtitle: What I do
     grid_items:
       - title: I study ecology...
         content: >-
@@ -62,7 +62,7 @@ sections:
           Jerome Cavailles, Christoph Kuzmics, and Martin Grube. <a href="https://www.biorxiv.org/content/biorxiv/early/2024/04/11/2024.04.10.588659.full.pdf">"Bleaching as a result of coral optimization in a changing environment."</a> bioRxiv (2024): 2024-04.
           <br/>
           <br/>
-          <div style="margin-left: 10%; max-width: 80%">Abstract: Corals provide important ecosystem services as protective coastal structures and as habitats for coastal biodiversity. Corals depend on their symbiotic relationship with algae, a relationship under threat from rising temperatures. To better understand the nature and resilience of this relationship, we provide a model in which two clades of algae (one efficient, the other resilient) compete over the nitrogen that the coral “chooses” to provide in a changing environment. This model is consistent with a wide range of empirical observations about observed bleaching episodes (when algal populations drop dramatically) and the observed algal composition over time, depending on environmental conditions.</div>
+          <div style="margin-left: 10%; max-width: 80%">Abstract: Corals provide important ecosystem services as protective coastal structures and as habitats for coastal biodiversity. Corals depend on their symbiotic relationship with algae, a relationship under threat from rising temperatures. To better understand the nature and resilience of this relationship, we provide a model in which two algae (one efficient, the other resilient) compete over the nitrogen that the coral “chooses” to provide in a changing environment. This model is consistent with a wide range of empirical observations about observed bleaching episodes (when algal populations drop dramatically) and the observed algal composition over time, depending on environmental conditions.</div>
           </div>
     grid_cols: one
     grid_gap_horiz: large
