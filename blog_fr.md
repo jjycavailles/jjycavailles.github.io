@@ -25,6 +25,11 @@ sections:
         subtitle: Modélisation de la géométrie d'un arbre à l'aide de fractales.
         content: >- 
           <a href="/posts/fractales_fr"><img src="../images/Fractal_canopy.svg.png" alt="tree fractal"></a>
+      - title: Colonies de fourmis
+        subtitle: Comment les colonies de fourmis créent-elles des chemins intelligents ?
+        content: >- 
+          <a href="/posts/ant_colonies_fr"><img src="../images/ants.png" alt="ants"></a>
+
     grid_cols: three
     grid_gap_horiz: small
     grid_gap_vert: large

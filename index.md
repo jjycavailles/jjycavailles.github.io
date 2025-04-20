@@ -63,6 +63,10 @@ sections:
         subtitle: Modeling the geometry of a tree using fractals.
         content: >- 
           <a href="/posts/fractales_en"><img src="images/Fractal_canopy.svg.png" alt="tree fractal"></a>
+      - title: Ant colonies
+        subtitle: How ant colonies create smart paths?
+        content: >- 
+          <a href="/posts/ant_colonies"><img src="../images/ants.png" alt="ants"></a>
     grid_cols: three
     grid_gap_horiz: small
     grid_gap_vert: large

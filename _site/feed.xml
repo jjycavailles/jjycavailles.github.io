@@ -11,8 +11,34 @@
 		<sy:updateFrequency>1</sy:updateFrequency>
 		<link>http://localhost:4000</link>
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-		<lastBuildDate>Mon, 18 Apr 2022 17:51:21 +0200</lastBuildDate>
+		<lastBuildDate>Fri, 18 Apr 2025 17:51:21 +0200</lastBuildDate>
 		
+		
+			<item>
+				<title>Colonies de fourmis</title>
+				
+				
+					<description>&lt;h4 id=&quot;comment-les-fourmis-créent-elles-des-chemins&quot;&gt;Comment les fourmis créent-elles des chemins ?&lt;/h4&gt;
+
+</description>
+				
+				<pubDate>Fri, 18 Apr 2025 17:51:21 +0200</pubDate>
+				<link>http://localhost:4000/posts/ant_colonies_fr/</link>
+				<guid isPermaLink="true">http://localhost:4000/posts/ant_colonies_fr/</guid>
+			</item>
+		
+			<item>
+				<title>Ant Colonies</title>
+				
+				
+					<description>&lt;h4 id=&quot;how-do-ants-create-paths&quot;&gt;How do ants create paths?&lt;/h4&gt;
+
+</description>
+				
+				<pubDate>Fri, 18 Apr 2025 17:51:21 +0200</pubDate>
+				<link>http://localhost:4000/posts/ant_colonies/</link>
+				<guid isPermaLink="true">http://localhost:4000/posts/ant_colonies/</guid>
+			</item>
 		
 			<item>
 				<title>Ressources scientifiques</title>

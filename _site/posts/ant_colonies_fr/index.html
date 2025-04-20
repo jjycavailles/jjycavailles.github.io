@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+    <head>    
+
+        <title>Colonies de fourmis</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="google" content="notranslate" />
+        <meta name="description" content="" />
+        
+        
+        
+        
+        
+        
+          
+          <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+          
+        
+        <link rel="stylesheet" href="/css/main.css">
+        
+        
+        
+    </head>
+    <body class="layout-boxed style-classic palette-3584 mode-light font-serif">
+        
+        <div id="site-wrap" class="site">
+	
+
+	<header class="site-header py-2">
+	<div class="container">
+		<nav class="navbar flex items-center" aria-label="Main Navigation">
+			<a class="sr-only" href="#content">Skip to main content</a>
+			<div class="navbar__branding mr-2">
+				
+				
+				<a class="navbar__title h4 m-0" href='/'></a>
+				
+			</div>
+			
+			<div class="navbar__container flex-md-auto">
+				<div class="navbar__scroller">
+					<div class="navbar__inner">
+						<button aria-label="Close" class="btn btn--icon btn--clear navbar__close-btn js-nav-toggle">
+							
+							
+<svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+	
+	<path d="M23.962 1.412L22.55 0 11.981 10.57 1.411 0 0 1.412l10.57 10.57L0 22.55l1.412 1.412 10.57-10.57 10.568 10.57 1.412-1.412-10.57-10.569z"/>
+	
+</svg>
+
+							<span class="sr-only">Close</span>
+						</button>
+						<div class="navbar__menu flex-md">
+							
+								
+								
+									
+
+<ul class="menu flex-md items-md-center">
+
+	
+	
+	
+	<li class="menu__item ml-md-3">
+		
+		
+
+
+<a href="/index_fr"
+	
+	
+	class="">
+	
+	
+		Accueil
+	
+</a>
+
+	</li>
+
+	
+	
+	
+	<li class="menu__item ml-md-3">
+		
+		
+
+
+<a href="/blog_fr"
+	
+	
+	class="">
+	
+	
+		Blog
+	
+</a>
+
+	</li>
+
+	
+	
+	
+	<li class="menu__item ml-md-3">
+		
+		
+
+
+<a href="/moi"
+	
+	
+	class="">
+	
+	
+		Moi
+	
+</a>
+
+	</li>
+
+</ul>
+
+								
+							
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<button aria-label="Menu" class="btn btn--icon btn--clear navbar__menu-btn js-nav-toggle ml-auto">
+				
+				
+<svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+	
+	<path d="M19 11v1.92H0V11zm5-8v1.92H0V3zm-2 16v1.92H0V19z"/>
+	
+</svg>
+
+				<span class="sr-only">Menu</span>
+			</button>
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<ul>
+			
+			
+			    <a href="/posts/ant_colonies/" class="en">🇬🇧</a>
+			
+			    <a href="/posts/ant_colonies_fr/" class="fr">🇫🇷</a>
+			
+
+			
+			
+			</ul>
+
+
+
+		</nav>
+	</div>
+
+</header>
+
+
+	<main id="content" class="site-content">
+		<article class="page py-5 py-sm-6">
+	<div class="container container--medium">
+		<header class="page__header">
+			<h1 class="page__title">Colonies de fourmis</h1>
+		</header>
+		<div class="page__body text-block">
+			<h4 id="comment-les-fourmis-créent-elles-des-chemins">Comment les fourmis créent-elles des chemins ?</h4>
+
+<p>Imaginez une colonie de fourmis tombant sur un morceau de sucre dans votre cuisine. En quelques minutes, vous voyez une ligne quasi parfaite de fourmis se déplacer entre le sucre et leur nid. Pas de GPS. Pas de patron. Pas de carte. Pas de Wi-Fi. Alors, comment font-elles ?</p>
+
+<p>Dans cet article, nous explorerons comment une chose aussi simple qu’une fourmi peut contribuer à l’émergence de comportements complexes et efficaces. Au fil de l’expérience, vous interagirez avec une simulation et découvrirez par vous-même comment l’intelligence collective naît de la simplicité individuelle.</p>
+
+<p>Les vraies fourmis n’ont pas beaucoup de matière grise. Leur comportement individuel est assez simple.
+Nous montrerons comment le comportement apparemment complexe d’une colonie entière de fourmis peut émerger de quatre règles individuelles simples :</p>
+
+<ol>
+  <li><strong>Déambuler</strong> au hasard jusqu’à trouver de la nourriture.</li>
+  <li>Retourner au nid en laissant une trace chimique (<strong>phéromones</strong>).</li>
+  <li><strong>Suivre</strong> les traces de phéromones lorsqu’elles sont détectées.</li>
+  <li>Laisser les phéromones s’évaporer progressivement.</li>
+</ol>
+
+<p>Malgré la simplicité de ces règles, nous verrons que le comportement collectif qui en découle est étonnamment sophistiqué.
+Utilisons la simulation du site web officiel de <a href="http://netlogoweb.org/launch#http://netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Ants.nlogo" target="_blank">NetLogo</a>.
+Considérons un monde en grille avec :</p>
+<ul>
+  <li>Un nid (en violet), placé au centre.</li>
+  <li>Trois sources de nourriture (en bleu), situées autour.</li>
+</ul>
+
+<p><img src="/images/ants_setup.png" width="400" /></p>
+
+<p>Commençons par libérer une seule fourmi du nid.
+La fourmi à l’écran suivra les trois règles de base décrites précédemment.</p>
+
+<p>Cliquez sur «<strong>configurer</strong>» puis sur «<strong>lancer</strong>» pour lancer la simulation.</p>
+
+<iframe width="1000" height="700" frameborder="0" src="../../simulations/ants_1_ant_fr.html"></iframe>
+
+<p>Observez-la errer au hasard dans son environnement. Lorsqu’elle trouve de la nourriture, elle retourne au nid, laissant derrière elle une traînée de phéromones (en vert). Vous remarquerez que cette traînée s’évaporera avec le temps si elle n’est pas renforcée.</p>
+
+<p>Cette fourmi solitaire n’a pas l’air très efficace.
+Prenons maintenant plusieurs fourmis.
+Chacune suit les mêmes règles simples que celles décrites précédemment.</p>
+
+<p>Cliquez à nouveau sur «<strong>configurer</strong>» puis sur «<strong>lancer</strong>» pour lancer la simulation.</p>
+
+<iframe width="1000" height="700" frameborder="0" src="../../simulations/ants_fr.html"></iframe>
+
+<p>Un phénomène remarquable se produit alors : des pistes commencent à se former ! Aucune fourmi n’a une vue d’ensemble de la carte. Aucune ne coordonne les autres. Pourtant, ensemble, elles construisent un réseau de transport efficace.
+Comme vous pouvez le constater, chaque fourmi suit des règles locales simples. Mais collectivement, la colonie trouve les chemins les plus courts, répartit les ouvrières de manière dynamique et peut également s’adapter aux variations de l’approvisionnement alimentaire.
+En effet, lorsqu’un nombre suffisant de fourmis renforcent le chemin des phéromones, un itinéraire efficace apparaît, attirant encore plus de fourmis.
+Mais si la nourriture s’épuise, la piste disparaît. Les fourmis reprennent leur exploration et de nouvelles pistes peuvent apparaître, démontrant ainsi l’adaptabilité du système.</p>
+
+<p>Il s’agit d’un exemple de <a href="https://fr.wikipedia.org/wiki/Stigmergie">stigmergie</a> — un concept biologique qui décrit la coordination indirecte par le biais de traces environnementales. Chez les fourmis, l’environnement est marqué chimiquement par des phéromones. Mais l’idée est plus générale : un agent modifie l’environnement, et ce changement oriente les comportements futurs, créant ainsi une boucle de rétroaction.</p>
+
+<p>Pour explorer ce phénomène plus en profondeur, utilisez les curseurs pour modifier les paramètres clés du modèle.</p>
+<ul>
+  <li><strong>Population</strong> : nombre de fourmis se déplaçant sur la grille. Lorsqu’elles sont peu nombreuses, elles n’explorent pas l’environnement en profondeur et les traces ne se forment souvent pas.</li>
+  <li><strong>Taux de diffusion</strong> : contrôle la dispersion des phéromones à partir de leur point de dépôt. Si la diffusion est très faible, les traces restent étroites.
+En revanche, si le taux de diffusion est élevé, les phéromones se dispersent davantage et les traces deviennent floues. Si cela facilite la détection des traces par les fourmis à proximité, cela peut également entraîner la confusion de plusieurs traces ou les rendre moins significatives, rendant plus difficile pour les fourmis de s’engager dans une direction spécifique.</li>
+  <li><strong>Taux d’évaporation</strong> : détermine la durée d’activité des traces de phéromones. Lorsque l’évaporation est lente, les traces persistent plus longtemps. Ainsi, une fois trouvée, une voie a tendance à rester solide. Cela peut rendre le système très efficace, mais cela complique également l’adaptation de la colonie aux changements de conditions.
+À l’inverse, lorsque l’évaporation est rapide, le système est plus flexible. Cela favorise l’adaptabilité, mais peut ralentir la formation de voies stables, car les bonnes voies ne durent pas assez longtemps pour être renforcées.</li>
+</ul>
+
+<p>Ensemble, ces trois paramètres – le nombre de fourmis, la portée de leurs phéromones et leur durée de vie – façonnent la capacité de la colonie à explorer, apprendre et s’adapter. Il n’existe pas de paramètre « correct ».
+Le comportement le plus efficace apparaît lorsque le système trouve un équilibre entre <a href="https://en.wikipedia.org/wiki/Exploration%E2%80%93exploitation_dilemma">exploration et exploitation</a> :</p>
+<ul>
+  <li><strong>Exploration</strong> signifie vagabonder, essayer de nouveaux chemins, et parfois avoir de la chance. C’est ce qui permet au système de découvrir des sources de nourriture.</li>
+  <li>L’<strong>exploitation</strong> consiste à renforcer et à s’appuyer sur des chemins efficaces connus. C’est ce qui rend le système efficace une fois les bons chemins découverts.</li>
+</ul>
+
+<p>Trop d’exploration, et les fourmis ne s’arrêtent jamais sur un bon chemin.
+Trop d’exploitation, et la colonie devient rigide ; elle cesse de s’adapter.
+Cet équilibre n’est pas inhérent à chaque fourmi. Il résulte de l’interaction entre la chimie des phéromones, le mouvement et le temps.</p>
+
+<p>Ce phénomène apparaît également dans les algorithmes d’optimisation, comme l’optimisation des colonies de fourmis, utilisés en robotique, en logistique et en informatique.</p>
+
+
+		</div>
+	</div>
+</article>
+
+	</main>
+
+	
+
+
+
+
+
+
+
+<footer class="site-footer">
+	
+	<div class="site-footer__info py-3 py-sm-4">
+		<div class="container">
+			<div class="grid items-center">
+				
+				
+				
+				
+				<div class="site-footer__social cell-12">
+					
+						
+						
+						<a href="https://interactionintegration.org/feed"
+							 target="_blank"
+							 rel="noopener "
+							class="btn btn--icon btn--clear">
+							
+							
+<svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+	
+	<path fill="currentColor" d="M6.002 15.999a2 2 0 1 0-.004 4a2 2 0 0 0 .004-4M6 4a2 2 0 0 0 0 4c5.514 0 10 4.486 10 10a2 2 0 0 0 4 0c0-7.72-6.28-14-14-14m0 6a2 2 0 0 0 0 4c2.205 0 4 1.794 4 4a2 2 0 0 0 4 0c0-4.411-3.589-8-8-8"/></svg>
+</svg>
+
+  
+</svg>
+
+							<span class="sr-only">RSS</span>
+						</a>
+						
+					
+						
+						
+						<a href="https://github.com/jjycavailles/"
+							 target="_blank"
+							 rel="noopener "
+							class="btn btn--icon btn--clear">
+							
+							
+<svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+	
+	<path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+	
+</svg>
+
+							<span class="sr-only">Github</span>
+						</a>
+						
+					
+						
+						
+						<a href="https://www.linkedin.com/in/jeromecavailles/"
+							 target="_blank"
+							 rel="noopener "
+							class="btn btn--icon btn--clear">
+							
+							
+<svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+	
+	<path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+	
+</svg>
+
+							<span class="sr-only">LinkedIn</span>
+						</a>
+						
+					
+						
+						
+						<a href="https://twitter.com/CavaillesJerome"
+							 target="_blank"
+							 rel="noopener "
+							class="btn btn--icon btn--clear">
+							
+							
+<svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+	
+	<path d="M23.954 4.569a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.691 8.094 4.066 6.13 1.64 3.161a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.061a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.937 4.937 0 004.604 3.417 9.868 9.868 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 002.46-2.548l-.047-.02z"/>
+	
+</svg>
+
+							<span class="sr-only">Twitter</span>
+						</a>
+						
+					
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+</footer>
+
+
+</div>
+
+
+<div class="nav-overlay js-nav-toggle"></div>
+
+
+        <script src="/js/init.js"></script>
+        <script src="/js/page-load.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-VPTWJKGKTG"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-VPTWJKGKTG');
+	</script>
+
+
+    </body> 
+</html>
