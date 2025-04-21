@@ -29,6 +29,10 @@ sections:
         subtitle: How ant colonies create smart paths?
         content: >- 
           <a href="/posts/ant_colonies"><img src="../images/ants.png" alt="ants"></a>
+      - title: flocking birds
+        subtitle: How birds create coordinated motion without a leader?
+        content: >- 
+          <a href="/posts/flocking_birds"><img src="../images/A_Flock_of_Unity.png" alt="birds"></a>
     grid_cols: three
     grid_gap_horiz: small
     grid_gap_vert: large

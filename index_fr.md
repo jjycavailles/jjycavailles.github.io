@@ -72,6 +72,10 @@ sections:
         subtitle: Comment les colonies de fourmis créent-elles des chemins intelligents ?
         content: >- 
           <a href="/posts/ant_colonies_fr"><img src="../images/ants.png" alt="ants"></a>
+      - title: Nuée d'Oiseaux
+        subtitle: Comment les oiseaux créent-ils des mouvements coordonnés ?
+        content: >- 
+          <a href="/posts/flocking_birds_fr"><img src="../images/A_Flock_of_Unity.png" alt="birds"></a>
     grid_cols: three
     grid_gap_horiz: small
     grid_gap_vert: large

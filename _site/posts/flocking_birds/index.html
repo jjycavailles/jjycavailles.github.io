@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+    <head>    
+
+        <title>Flocking Birds</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="google" content="notranslate" />
+        <meta name="description" content="" />
+        
+        
+        
+        
+        
+        
+          
+          <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+          
+        
+        <link rel="stylesheet" href="/css/main.css">
+        
+        
+        
+    </head>
+    <body class="layout-boxed style-classic palette-3584 mode-light font-serif">
+        
+        <div id="site-wrap" class="site">
+	
+
+	<header class="site-header py-2">
+	<div class="container">
+		<nav class="navbar flex items-center" aria-label="Main Navigation">
+			<a class="sr-only" href="#content">Skip to main content</a>
+			<div class="navbar__branding mr-2">
+				
+				
+				<a class="navbar__title h4 m-0" href='/'></a>
+				
+			</div>
+			
+			<div class="navbar__container flex-md-auto">
+				<div class="navbar__scroller">
+					<div class="navbar__inner">
+						<button aria-label="Close" class="btn btn--icon btn--clear navbar__close-btn js-nav-toggle">
+							
+							
+<svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+	
+	<path d="M23.962 1.412L22.55 0 11.981 10.57 1.411 0 0 1.412l10.57 10.57L0 22.55l1.412 1.412 10.57-10.57 10.568 10.57 1.412-1.412-10.57-10.569z"/>
+	
+</svg>
+
+							<span class="sr-only">Close</span>
+						</button>
+						<div class="navbar__menu flex-md">
+							
+								
+									
+
+<ul class="menu flex-md items-md-center">
+
+	
+	
+	
+	<li class="menu__item ml-md-3">
+		
+		
+
+
+<a href="/"
+	
+	
+	class="">
+	
+	
+		Home
+	
+</a>
+
+	</li>
+
+	
+	
+	
+	<li class="menu__item ml-md-3">
+		
+		
+
+
+<a href="/blog"
+	
+	
+	class="">
+	
+	
+		Blog
+	
+</a>
+
+	</li>
+
+	
+	
+	
+	<li class="menu__item ml-md-3">
+		
+		
+
+
+<a href="/me"
+	
+	
+	class="">
+	
+	
+		Me
+	
+</a>
+
+	</li>
+
+</ul>
+
+								
+								
+							
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<button aria-label="Menu" class="btn btn--icon btn--clear navbar__menu-btn js-nav-toggle ml-auto">
+				
+				
+<svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+	
+	<path d="M19 11v1.92H0V11zm5-8v1.92H0V3zm-2 16v1.92H0V19z"/>
+	
+</svg>
+
+				<span class="sr-only">Menu</span>
+			</button>
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<ul>
+			
+			
+			    <a href="/posts/flocking_birds/" class="en">🇬🇧</a>
+			
+			    <a href="/posts/flocking_birds_fr/" class="fr">🇫🇷</a>
+			
+
+			
+			
+			</ul>
+
+
+
+		</nav>
+	</div>
+
+</header>
+
+
+	<main id="content" class="site-content">
+		<article class="page py-5 py-sm-6">
+	<div class="container container--medium">
+		<header class="page__header">
+			<h1 class="page__title">Flocking Birds</h1>
+		</header>
+		<div class="page__body text-block">
+			<h4 id="how-birds-create-coordinated-motion-without-a-leader">How birds create coordinated motion without a leader?</h4>
+
+<p>Have you ever looked up and watched a flock of birds sweeping across the sky in perfect unison — twisting, turning, shifting direction as if they were a single organism?
+No one seems to be in charge, yet the group moves as one, as if it shares a common mind.</p>
+
+<p>So, how do they do it?</p>
+
+<p>In this article, we’ll explore how coordinated group motion — like bird flocks, fish schools, or even human crowds — can emerge from a few extremely simple rules followed by each individual. 
+You’ll also get to play with a simulation that lets you control those rules directly and see what happens when you tweak the way individuals interact.</p>
+
+<p>Although bird flocks behave in elegant, coordinated patterns, each bird makes decisions based on what’s happening in its immediate surroundings. 
+There’s no central control, no leader issuing commands. Each bird reacts to its nearby neighbors using just three basic instincts.</p>
+
+<p>In our model, we assume that each bird follows these three simple rules:</p>
+
+<ul>
+  <li><strong>Separation</strong>: Don’t crowd your neighbors — keep a comfortable distance.</li>
+  <li><strong>Alignment</strong>: Steer in the same direction as your neighbors.</li>
+  <li><strong>Cohesion</strong>: Try to move toward the average position of your neighbors.</li>
+</ul>
+
+<p>Each of these rules is based on local information. A bird doesn’t need to see the whole flock — it only reacts to a handful of birds near it, usually within a limited radius.</p>
+
+<p>Click “setup” to initialize the simulation, and then click “go” to launch it. You’ll see a number of birds (represented as simple triangles or dots) scattered across the screen. 
+They will begin to move, each one adjusting its direction based on what the birds nearby are doing.</p>
+
+<iframe width="1000" height="800" frameborder="0" src="../../simulations/flocking_en.html"></iframe>
+
+<p>At first, the motion may look chaotic — a blur of motion and random turns. 
+But within seconds, a structure begins to form. Birds begin to align, form clusters, and flow together like a river of movement.</p>
+
+<p>This is a classic example of <strong>emergence</strong>: the global pattern of the flock arises from the repeated, local interactions between individual agents. 
+Each bird follows the same rules and has no knowledge of the bigger picture. But together, they produce a coherent and adaptive group behavior.</p>
+
+<p>To better understand how this flocking behavior emerges, try adjusting the sliders in the simulation. 
+You can modify how each bird behaves using sliders that control the strength of the different parameters.</p>
+<ul>
+  <li>Start by setting the number of birds using the “<strong>population</strong>” slider. After clicking “setup,” press “go” to let them begin flying. Now, observe how the flock behaves.</li>
+  <li>There’s a “<strong>vision</strong>” slider, which determines how far each bird can “see” around itself — it defines the radius of its awareness. The bird responds only to others within this circular zone.</li>
+  <li>The “<strong>minimum-separation</strong>” parameter controls the minimum distance birds try to maintain between themselves and their neighbors. This directly affects the separation behavior by defining how “personal space” works in the simulation.</li>
+</ul>
+
+<p>You’ll see three sliders labeled max-align-turn, max-cohere-turn, and max-separate-turn. Each one controls the maximum angle a bird can turn in response to that particular rule:</p>
+<ul>
+  <li>If “<strong>max-align-turn</strong>” is high, birds will more sharply match the direction of their neighbors.</li>
+  <li>If “<strong>max-cohere-turn</strong>” is increased, birds will strongly adjust their path to stay near the group.</li>
+  <li>If “<strong>max-separate-turn</strong>” is high, birds will quickly steer away from others that come too close.</li>
+</ul>
+
+<p>Try reducing separation: birds will bunch too closely, sometimes colliding or clustering too tightly.
+Try increasing cohesion: birds become more glued together, but may lose flexibility.
+Try setting alignment too high: the flock may freeze into rigid patterns, like a marching band.
+Now turn one rule off entirely — for example, disable cohesion. What happens? The flock loses its structure.</p>
+
+<p>You’ll quickly find that flocking only emerges when the three rules are properly balanced. Each rule on its own leads to unstructured or unnatural movement. It’s the interplay between them that creates lifelike motion.</p>
+
+<p>What you’re seeing isn’t just a fun animation. It reflects a real phenomenon found in many natural systems — and has inspired engineering and design in surprising ways.
+Flocking-like models are used in:</p>
+<ul>
+  <li>Computer graphics for movies and games (to simulate crowds, herds, or flying creatures)</li>
+  <li>Robotics, where groups of drones must coordinate without centralized control</li>
+  <li>Autonomous vehicles, to avoid collisions while maintaining flow in traffic systems</li>
+  <li>Crowd dynamics, to model how people move through cities or buildings during emergencies</li>
+</ul>
+
+<p>In a similar, but more structured and complex way, we can also represent the famous V formations seen in migrating birds like geese. These formations aren’t just beautiful — they’re efficient. 
+Birds in V formation take advantage of aerodynamic effects: each bird benefits from the upwash created by the wingtips of the bird in front.</p>
+
+<iframe width="1000" height="600" frameborder="0" src="../../simulations/flocking_vee_formations_en.html"></iframe>
+
+
+		</div>
+	</div>
+</article>
+
+	</main>
+
+	
+
+
+
+
+
+
+
+<footer class="site-footer">
+	
+	<div class="site-footer__info py-3 py-sm-4">
+		<div class="container">
+			<div class="grid items-center">
+				
+				
+				
+				
+				<div class="site-footer__social cell-12">
+					
+						
+						
+						<a href="https://interactionintegration.org/feed"
+							 target="_blank"
+							 rel="noopener "
+							class="btn btn--icon btn--clear">
+							
+							
+<svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+	
+	<path fill="currentColor" d="M6.002 15.999a2 2 0 1 0-.004 4a2 2 0 0 0 .004-4M6 4a2 2 0 0 0 0 4c5.514 0 10 4.486 10 10a2 2 0 0 0 4 0c0-7.72-6.28-14-14-14m0 6a2 2 0 0 0 0 4c2.205 0 4 1.794 4 4a2 2 0 0 0 4 0c0-4.411-3.589-8-8-8"/></svg>
+</svg>
+
+  
+</svg>
+
+							<span class="sr-only">RSS</span>
+						</a>
+						
+					
+						
+						
+						<a href="https://github.com/jjycavailles/"
+							 target="_blank"
+							 rel="noopener "
+							class="btn btn--icon btn--clear">
+							
+							
+<svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+	
+	<path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+	
+</svg>
+
+							<span class="sr-only">Github</span>
+						</a>
+						
+					
+						
+						
+						<a href="https://www.linkedin.com/in/jeromecavailles/"
+							 target="_blank"
+							 rel="noopener "
+							class="btn btn--icon btn--clear">
+							
+							
+<svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+	
+	<path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+	
+</svg>
+
+							<span class="sr-only">LinkedIn</span>
+						</a>
+						
+					
+						
+						
+						<a href="https://twitter.com/CavaillesJerome"
+							 target="_blank"
+							 rel="noopener "
+							class="btn btn--icon btn--clear">
+							
+							
+<svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+	
+	<path d="M23.954 4.569a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.691 8.094 4.066 6.13 1.64 3.161a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.061a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.937 4.937 0 004.604 3.417 9.868 9.868 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 002.46-2.548l-.047-.02z"/>
+	
+</svg>
+
+							<span class="sr-only">Twitter</span>
+						</a>
+						
+					
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+</footer>
+
+
+</div>
+
+
+<div class="nav-overlay js-nav-toggle"></div>
+
+
+        <script src="/js/init.js"></script>
+        <script src="/js/page-load.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-VPTWJKGKTG"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-VPTWJKGKTG');
+	</script>
+
+
+    </body> 
+</html>
